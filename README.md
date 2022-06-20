@@ -1,3 +1,5 @@
-# Tian Modpack - a Minecraft Modpack
+# Minecraft Tian
+
+A hardcore survival modpack
 
 created by iahntot, toriluvsian and Scenon
