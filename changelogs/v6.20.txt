@@ -24,4 +24,4 @@ Version 6.20
 - Configure Random Patches
 - Increase Item Stack Limit
 - BASICALLY CONFIUGURE EVERYTHING
-- Add Mods: Configured, Guard Villagers
+- Add Mods: Configured, Guard Villagers, Clef
