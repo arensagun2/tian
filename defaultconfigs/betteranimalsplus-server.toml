@@ -1,0 +1,1124 @@
+
+[entities]
+
+	[entities.lammergeier]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.lammergeier.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:mountains", "biomesoplenty:alps", "biomesoplenty:volcano", "minecraft:taiga_mountains", "minecraft:tall_birch_hills", "biomesoplenty:redwood_hills", "biomesoplenty:shrubland_hills", "terraforged:shattered_savanna_scrub", "minecraft:birch_forest_hills", "minecraft:swamp_hills", "minecraft:giant_tree_taiga_hills", "minecraft:shattered_savanna_plateau", "minecraft:ice_spikes", "cavesandcliffs:grove", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "cavesandcliffs:snowy_slopes", "minecraft:gravelly_mountains", "minecraft:wooded_mountains", "minecraft:wooded_hills", "minecraft:bamboo_jungle_hills", "cavesandcliffs:jagged_peaks", "minecraft:desert_hills", "cavesandcliffs:meadow", "minecraft:snowy_mountains", "minecraft:mountain_edge", "minecraft:dark_forest_hills", "minecraft:modified_jungle", "minecraft:snowy_taiga_mountains", "minecraft:modified_jungle_edge", "biomesoplenty:rainbow_hills", "cavesandcliffs:stony_peaks", "minecraft:jungle_hills", "biomesoplenty:highland_moor", "minecraft:tall_birch_forest", "minecraft:modified_wooded_badlands_plateau", "cavesandcliffs:frozen_peaks", "minecraft:modified_gravelly_mountains", "biomesoplenty:alps_foothills", "biomesoplenty:highland", "minecraft:eroded_badlands", "terraforged:flower_plains", "minecraft:snowy_taiga_hills", "biomesoplenty:highland_crag", "minecraft:modified_badlands_plateau", "minecraft:shattered_savanna", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+
+			[entities.lammergeier.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.tarantula]
+
+		[entities.tarantula.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 40
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:jungle", "minecraft:desert_hills", "minecraft:desert_lakes", "biomesoplenty:tropics", "biomesoplenty:fungal_field", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "biomesoplenty:lush_desert", "minecraft:jungle_hills", "biomesoplenty:dry_boneyard", "biomesoplenty:tropic_beach", "minecraft:badlands", "biomesoplenty:dryland", "terraforged:stone_forest", "biomesoplenty:rainforest_floodplain", "terraforged:bryce", "minecraft:jungle_edge", "minecraft:wooded_badlands_plateau", "minecraft:desert", "biomesoplenty:fungal_jungle", "minecraft:badlands_plateau", "minecraft:bamboo_jungle_hills"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.tarantula.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.goat]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#Enabling this will cause goats to give out vanilla milk instead of goat milk.
+		use_vanilla_milk = false
+
+		[entities.goat.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 9
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:savanna", "biomesoplenty:coniferous_lakes", "biomesoplenty:alps", "biomesoplenty:volcano", "minecraft:taiga_mountains", "biomesoplenty:fungal_field", "minecraft:savanna_plateau", "biomesoplenty:rainforest", "biomesoplenty:shrubland_hills", "biomesoplenty:wetland", "terraforged:shattered_savanna_scrub", "minecraft:birch_forest_hills", "biomesoplenty:mystic_plains", "minecraft:swamp_hills", "minecraft:giant_tree_taiga_hills", "minecraft:shattered_savanna_plateau", "minecraft:ice_spikes", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:flower_meadow", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "biomesoplenty:wasteland", "biomesoplenty:cherry_blossom_grove", "minecraft:gravelly_mountains", "minecraft:wooded_mountains", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_pumpkin_patch", "cavesandcliffs:jagged_peaks", "minecraft:snowy_mountains", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:snowy_maple_forest", "minecraft:mountain_edge", "terraforged:frozen_marsh", "biomesoplenty:grassland", "minecraft:modified_jungle", "minecraft:jungle_hills", "biomesoplenty:dry_boneyard", "minecraft:tall_birch_forest", "cavesandcliffs:frozen_peaks", "minecraft:modified_gravelly_mountains", "biomesoplenty:grove_clearing", "biomesoplenty:highland", "minecraft:forest", "biomesoplenty:dryland", "biomesoplenty:wooded_scrubland", "terraforged:savanna_scrub", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "biomesoplenty:meadow", "biomesoplenty:tundra", "biomesoplenty:grove", "minecraft:mountains", "biomesoplenty:ominous_woods", "biomesoplenty:redwood_forest_edge", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "minecraft:birch_forest", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:prairie", "biomesoplenty:scrubland", "biomesoplenty:grassland_clover_patch", "biomesoplenty:lush_desert", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "biomesoplenty:golden_prairie", "cavesandcliffs:grove", "biomesoplenty:dead_forest", "minecraft:dark_forest", "cavesandcliffs:snowy_slopes", "biomesoplenty:tall_dead_forest", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "terraforged:fir_forest", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "minecraft:bamboo_jungle_hills", "minecraft:desert_hills", "biomesoplenty:shrubland", "cavesandcliffs:meadow", "biomesoplenty:coniferous_forest", "biomesoplenty:lush_savanna", "biomesoplenty:snowy_coniferous_forest", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "minecraft:modified_jungle_edge", "biomesoplenty:rainbow_hills", "cavesandcliffs:stony_peaks", "biomesoplenty:lavender_field", "biomesoplenty:highland_moor", "minecraft:modified_wooded_badlands_plateau", "minecraft:taiga", "biomesoplenty:alps_foothills", "minecraft:plains", "minecraft:eroded_badlands", "terraforged:cold_marshland", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "minecraft:snowy_taiga_hills", "biomesoplenty:highland_crag", "minecraft:modified_badlands_plateau", "minecraft:snowy_taiga", "minecraft:shattered_savanna", "biomesoplenty:jade_cliffs"]
+
+			[entities.goat.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.pheasant]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.pheasant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 12
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "minecraft:savanna", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:fungal_field", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "minecraft:savanna_plateau", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:prairie", "biomesoplenty:scrubland", "biomesoplenty:shrubland_hills", "biomesoplenty:wetland", "terraforged:shattered_savanna_scrub", "biomesoplenty:grassland_clover_patch", "biomesoplenty:lush_desert", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "biomesoplenty:mystic_plains", "minecraft:giant_tree_taiga_hills", "minecraft:shattered_savanna_plateau", "biomesoplenty:golden_prairie", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:flower_meadow", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "biomesoplenty:wasteland", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:shrubland", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:lush_savanna", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "biomesoplenty:grassland", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "biomesoplenty:lavender_field", "biomesoplenty:dry_boneyard", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:grove_clearing", "biomesoplenty:alps_foothills", "biomesoplenty:highland", "minecraft:plains", "minecraft:forest", "biomesoplenty:dryland", "biomesoplenty:wooded_scrubland", "terraforged:savanna_scrub", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "minecraft:shattered_savanna", "biomesoplenty:tundra", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+
+			[entities.pheasant.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squirrel]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.squirrel.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:wetland", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "minecraft:giant_tree_taiga_hills", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:alps_foothills", "minecraft:forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.squirrel.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.songbird]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.songbird.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 11
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "minecraft:savanna", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:fungal_field", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "minecraft:savanna_plateau", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:prairie", "biomesoplenty:shrubland_hills", "biomesoplenty:wetland", "biomesoplenty:grassland_clover_patch", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "biomesoplenty:mystic_plains", "minecraft:giant_tree_taiga_hills", "biomesoplenty:golden_prairie", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:flower_meadow", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:shrubland", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:lush_savanna", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "biomesoplenty:grassland", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "biomesoplenty:lavender_field", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:grove_clearing", "biomesoplenty:alps_foothills", "biomesoplenty:highland", "minecraft:plains", "minecraft:forest", "terraforged:savanna_scrub", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "biomesoplenty:tundra", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.songbird.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.badger]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.badger.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "minecraft:savanna", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:fungal_field", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "minecraft:savanna_plateau", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:prairie", "biomesoplenty:scrubland", "biomesoplenty:shrubland_hills", "biomesoplenty:wetland", "terraforged:shattered_savanna_scrub", "biomesoplenty:grassland_clover_patch", "biomesoplenty:lush_desert", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "biomesoplenty:mystic_plains", "minecraft:giant_tree_taiga_hills", "minecraft:shattered_savanna_plateau", "biomesoplenty:golden_prairie", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:flower_meadow", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "biomesoplenty:wasteland", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:shrubland", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:lush_savanna", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "biomesoplenty:grassland", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "biomesoplenty:lavender_field", "biomesoplenty:dry_boneyard", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:grove_clearing", "biomesoplenty:alps_foothills", "biomesoplenty:highland", "minecraft:plains", "minecraft:forest", "biomesoplenty:dryland", "biomesoplenty:wooded_scrubland", "terraforged:savanna_scrub", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "minecraft:shattered_savanna", "biomesoplenty:tundra", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.badger.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.crab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.crab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp_hills", "minecraft:mushroom_field_shore", "biomesoplenty:muskeg", "biomesoplenty:bayou_mangrove", "biomesoplenty:shroomy_wetland", "biomesoplenty:gravel_beach", "biomesoplenty:marsh", "minecraft:swamp", "biomesoplenty:rainforest_floodplain", "minecraft:beach", "minecraft:stone_shore", "biomesoplenty:deep_bayou", "biomesoplenty:tundra_bog", "terraforged:marshland", "biomesoplenty:volcanic_plains", "biomesoplenty:wetland", "minecraft:snowy_beach", "biomesoplenty:dense_marsh", "biomesoplenty:wetland_forest", "biomesoplenty:bayou", "biomesoplenty:highland_moor", "biomesoplenty:tropic_beach", "biomesoplenty:ominous_mire"]
+
+			[entities.crab.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.horseshoecrab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.horseshoecrab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:mushroom_field_shore", "biomesoplenty:gravel_beach", "biomesoplenty:volcanic_plains", "minecraft:snowy_beach", "minecraft:beach", "minecraft:stone_shore", "biomesoplenty:tropic_beach"]
+
+			[entities.horseshoecrab.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.shark]
+
+		[entities.shark.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:ocean", "terraforged:warm_beach", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.shark.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.turkey]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.turkey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 11
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "biomesoplenty:wetland", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "minecraft:giant_tree_taiga_hills", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "minecraft:dark_forest_hills", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "minecraft:tall_birch_forest", "minecraft:taiga", "minecraft:forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+
+			[entities.turkey.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.bobbit_worm]
+
+		[entities.bobbit_worm.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:ocean", "terraforged:warm_beach", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean"]
+
+			[entities.bobbit_worm.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.goose]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of blacklisted item IDs that cannot be picked up. Accepts tags by prefixing them with '#'.
+		pickup_blacklist = ["betteranimalsplus:goose_egg", "betteranimalsplus:golden_goose_egg"]
+
+		[entities.goose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 15
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 2
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:forest", "biomesoplenty:redwood_forest_edge", "biomesoplenty:shroomy_wetland", "biomesoplenty:bamboo_blossom_grove", "minecraft:flower_forest", "biomesoplenty:woodland", "biomesoplenty:cherry_blossom_grove", "minecraft:birch_forest", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "terraforged:lake", "biomesoplenty:meadow", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_forest", "minecraft:frozen_river", "biomesoplenty:wetland", "terraforged:frozen_lake", "minecraft:wooded_hills", "minecraft:birch_forest_hills", "minecraft:river", "biomesoplenty:grove", "biomesoplenty:seasonal_orchard", "biomesoplenty:jade_cliffs"]
+
+			[entities.goose.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.whale]
+
+		[entities.whale.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:ocean", "terraforged:warm_beach", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.whale.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.walrus]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.walrus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:snowy_beach", "minecraft:stone_shore", "minecraft:frozen_ocean"]
+
+			[entities.walrus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squid_colossal]
+
+		[entities.squid_colossal.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_cold_ocean"]
+
+			[entities.squid_colossal.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squid_giant]
+
+		[entities.squid_giant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_cold_ocean"]
+
+			[entities.squid_giant.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.octopus]
+
+		[entities.octopus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:warm_ocean", "terraforged:warm_beach", "minecraft:deep_lukewarm_ocean", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean"]
+
+			[entities.octopus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.brownbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.brownbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:wetland", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "minecraft:giant_tree_taiga_hills", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:alps_foothills", "minecraft:forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+
+			[entities.brownbear.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.blackbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.blackbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 6
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:wetland", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "minecraft:giant_tree_taiga_hills", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:alps_foothills", "minecraft:forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+
+			[entities.blackbear.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.deer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.deer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 16
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:wetland", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "biomesoplenty:mystic_plains", "minecraft:giant_tree_taiga_hills", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:alps_foothills", "minecraft:forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+
+			[entities.deer.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.feralwolf]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.feralwolf.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 6
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:ominous_woods", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "minecraft:taiga_mountains", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:wetland", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "biomesoplenty:mystic_plains", "minecraft:giant_tree_taiga_hills", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:dead_forest", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:tall_dead_forest", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "terraforged:fir_forest", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "biomesoplenty:rainbow_hills", "minecraft:tall_birch_forest", "minecraft:taiga", "biomesoplenty:alps_foothills", "minecraft:forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "terraforged:cold_marshland", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.feralwolf.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.coyote]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#Makes coyote always hostile (removes ability to tame!)
+		hostile_during_daytime = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:rabbit", "minecraft:chicken", "betteranimalsplus:pheasantraw", "minecraft:cooked_rabbit", "minecraft:cooked_chicken", "betteranimalsplus:pheasantcooked"]
+
+		[entities.coyote.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 6
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:desert_hills", "biomesoplenty:shrubland", "minecraft:savanna", "minecraft:desert_lakes", "biomesoplenty:fungal_field", "minecraft:savanna_plateau", "biomesoplenty:lush_savanna", "minecraft:sunflower_plains", "biomesoplenty:prairie", "biomesoplenty:grassland", "biomesoplenty:shrubland_hills", "biomesoplenty:grassland_clover_patch", "biomesoplenty:lush_desert", "biomesoplenty:lavender_field", "biomesoplenty:dry_boneyard", "biomesoplenty:tropic_beach", "biomesoplenty:grove_clearing", "biomesoplenty:mystic_plains", "biomesoplenty:highland", "minecraft:plains", "minecraft:badlands", "biomesoplenty:golden_prairie", "biomesoplenty:dryland", "terraforged:savanna_scrub", "biomesoplenty:flower_meadow", "terraforged:bryce", "minecraft:wooded_badlands_plateau", "biomesoplenty:orchard", "minecraft:desert", "biomesoplenty:tundra", "minecraft:badlands_plateau"]
+
+			[entities.coyote.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.jellyfish]
+
+		[entities.jellyfish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:ocean", "terraforged:warm_beach", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean"]
+
+			[entities.jellyfish.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.reindeer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.reindeer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:alps_foothills", "biomesoplenty:muskeg", "minecraft:snowy_mountains", "minecraft:ice_spikes", "biomesoplenty:alps", "terraforged:cold_marshland", "biomesoplenty:snowy_fir_clearing", "minecraft:snowy_tundra", "biomesoplenty:snowy_maple_forest", "biomesoplenty:snowy_coniferous_forest", "terraforged:frozen_marsh", "terraforged:snowy_fir_forest", "terraforged:snowy_taiga_scrub", "biomesoplenty:cold_desert", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:frozen_river", "minecraft:snowy_taiga", "minecraft:snowy_beach", "terraforged:frozen_lake"]
+
+			[entities.reindeer.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.boar]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.boar.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 9
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:jungle", "minecraft:savanna", "biomesoplenty:coniferous_lakes", "minecraft:taiga_mountains", "biomesoplenty:fungal_field", "minecraft:savanna_plateau", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "biomesoplenty:shrubland_hills", "biomesoplenty:wetland", "terraforged:shattered_savanna_scrub", "minecraft:birch_forest_hills", "biomesoplenty:mystic_plains", "minecraft:giant_tree_taiga_hills", "minecraft:shattered_savanna_plateau", "biomesoplenty:burnt_forest", "biomesoplenty:shroomy_wetland", "biomesoplenty:flower_meadow", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "terraforged:taiga_scrub", "biomesoplenty:lavender_forest", "biomesoplenty:wasteland", "biomesoplenty:cherry_blossom_grove", "minecraft:wooded_mountains", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_pumpkin_patch", "biomesoplenty:fungal_jungle", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:snowy_maple_forest", "terraforged:frozen_marsh", "biomesoplenty:grassland", "minecraft:modified_jungle", "minecraft:jungle_hills", "biomesoplenty:dry_boneyard", "minecraft:tall_birch_forest", "biomesoplenty:tropic_beach", "biomesoplenty:grove_clearing", "biomesoplenty:highland", "minecraft:forest", "biomesoplenty:dryland", "biomesoplenty:wooded_scrubland", "terraforged:savanna_scrub", "terraforged:stone_forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:cold_steppe", "biomesoplenty:rainforest_floodplain", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "biomesoplenty:meadow", "biomesoplenty:tundra", "biomesoplenty:grove", "biomesoplenty:ominous_woods", "biomesoplenty:redwood_forest_edge", "biomesoplenty:tropics", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:woodland", "minecraft:tall_birch_hills", "minecraft:birch_forest", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "terraforged:snowy_fir_forest", "biomesoplenty:prairie", "biomesoplenty:scrubland", "biomesoplenty:grassland_clover_patch", "biomesoplenty:lush_desert", "biomesoplenty:wetland_forest", "biomesoplenty:ominous_mire", "biomesoplenty:golden_prairie", "biomesoplenty:dead_forest", "minecraft:dark_forest", "biomesoplenty:tall_dead_forest", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "terraforged:fir_forest", "minecraft:wooded_hills", "minecraft:giant_tree_taiga", "biomesoplenty:seasonal_orchard", "minecraft:bamboo_jungle_hills", "biomesoplenty:shrubland", "biomesoplenty:coniferous_forest", "biomesoplenty:lush_savanna", "biomesoplenty:snowy_coniferous_forest", "minecraft:dark_forest_hills", "terraforged:snowy_taiga_scrub", "minecraft:snowy_taiga_mountains", "biomesoplenty:seasonal_forest", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "biomesoplenty:rainbow_hills", "biomesoplenty:lavender_field", "minecraft:taiga", "biomesoplenty:alps_foothills", "minecraft:plains", "terraforged:cold_marshland", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga", "minecraft:shattered_savanna", "biomesoplenty:jade_cliffs"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.boar.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+		[entities.boar.nerf_options]
+			#Sets boars in breeding mode if they kill something
+			breed_from_kill = true
+			#Sets boars in breeding mode if they eat crops or berries
+			breed_from_crops = true
+			#Makes boars eat crops
+			eat_crops = true
+			#Chance out of 100 the boar will execute targeting AI: lower number = less common attacks
+			#Range: 0 ~ 100
+			target_chance = 100
+
+	[entities.lamprey]
+
+		[entities.lamprey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp_hills", "biomesoplenty:muskeg", "biomesoplenty:bayou_mangrove", "biomesoplenty:shroomy_wetland", "biomesoplenty:marsh", "minecraft:swamp", "biomesoplenty:rainforest_floodplain", "biomesoplenty:deep_bayou", "biomesoplenty:tundra_bog", "terraforged:lake", "terraforged:marshland", "minecraft:frozen_river", "biomesoplenty:wetland", "biomesoplenty:dense_marsh", "terraforged:frozen_lake", "biomesoplenty:wetland_forest", "biomesoplenty:bayou", "biomesoplenty:highland_moor", "minecraft:river", "biomesoplenty:ominous_mire"]
+
+			[entities.lamprey.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.nautilus]
+
+		[entities.nautilus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:ocean", "terraforged:warm_beach", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean"]
+
+			[entities.nautilus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.moose]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.moose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp_hills", "minecraft:giant_tree_taiga_hills", "biomesoplenty:muskeg", "biomesoplenty:bayou_mangrove", "biomesoplenty:shroomy_wetland", "biomesoplenty:marsh", "minecraft:swamp", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:rainforest_floodplain", "biomesoplenty:deep_bayou", "biomesoplenty:tundra_bog", "minecraft:giant_spruce_taiga", "terraforged:marshland", "biomesoplenty:wetland", "biomesoplenty:dense_marsh", "biomesoplenty:wetland_forest", "biomesoplenty:bayou", "biomesoplenty:highland_moor", "minecraft:giant_tree_taiga", "biomesoplenty:ominous_mire"]
+
+			[entities.moose.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.eel_freshwater]
+
+		[entities.eel_freshwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp_hills", "biomesoplenty:muskeg", "biomesoplenty:bayou_mangrove", "biomesoplenty:shroomy_wetland", "biomesoplenty:marsh", "minecraft:swamp", "biomesoplenty:rainforest_floodplain", "biomesoplenty:deep_bayou", "biomesoplenty:tundra_bog", "terraforged:lake", "terraforged:marshland", "minecraft:frozen_river", "biomesoplenty:wetland", "biomesoplenty:dense_marsh", "terraforged:frozen_lake", "biomesoplenty:wetland_forest", "biomesoplenty:bayou", "biomesoplenty:highland_moor", "minecraft:river", "biomesoplenty:ominous_mire"]
+
+			[entities.eel_freshwater.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.eel_saltwater]
+
+		[entities.eel_saltwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:warm_ocean", "minecraft:ocean", "terraforged:warm_beach", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean"]
+
+			[entities.eel_saltwater.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.butterfly]
+
+		[entities.butterfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:jungle", "biomesoplenty:coniferous_lakes", "biomesoplenty:redwood_forest_edge", "biomesoplenty:tropics", "biomesoplenty:woodland", "biomesoplenty:fungal_field", "minecraft:tall_birch_hills", "biomesoplenty:rainforest", "minecraft:birch_forest", "minecraft:giant_spruce_taiga", "biomesoplenty:redwood_hills", "biomesoplenty:rainforest_cliffs", "biomesoplenty:wetland", "minecraft:birch_forest_hills", "biomesoplenty:wetland_forest", "biomesoplenty:mystic_plains", "biomesoplenty:shroomy_wetland", "minecraft:flower_forest", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:lavender_forest", "minecraft:dark_forest", "biomesoplenty:cherry_blossom_grove", "minecraft:wooded_mountains", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:wooded_hills", "biomesoplenty:seasonal_orchard", "biomesoplenty:fungal_jungle", "minecraft:bamboo_jungle_hills", "biomesoplenty:dense_woodland", "terraforged:steppe", "biomesoplenty:coniferous_forest", "minecraft:dark_forest_hills", "minecraft:modified_jungle", "biomesoplenty:seasonal_forest", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "biomesoplenty:rainbow_hills", "minecraft:tall_birch_forest", "minecraft:jungle_hills", "biomesoplenty:tropic_beach", "minecraft:forest", "biomesoplenty:bamboo_blossom_grove", "terraforged:stone_forest", "terraforged:cold_steppe", "biomesoplenty:rainforest_floodplain", "biomesoplenty:fir_clearing", "minecraft:jungle_edge", "terraforged:flower_plains", "biomesoplenty:meadow_forest", "biomesoplenty:meadow", "biomesoplenty:grove", "biomesoplenty:jade_cliffs"]
+
+			[entities.butterfly.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.dragonfly]
+
+		[entities.dragonfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp_hills", "biomesoplenty:muskeg", "biomesoplenty:bayou_mangrove", "biomesoplenty:shroomy_wetland", "biomesoplenty:marsh", "minecraft:swamp", "biomesoplenty:rainforest_floodplain", "biomesoplenty:deep_bayou", "biomesoplenty:tundra_bog", "terraforged:lake", "terraforged:marshland", "minecraft:frozen_river", "biomesoplenty:wetland", "biomesoplenty:dense_marsh", "terraforged:frozen_lake", "biomesoplenty:wetland_forest", "biomesoplenty:bayou", "biomesoplenty:highland_moor", "minecraft:river", "biomesoplenty:ominous_mire"]
+
+			[entities.dragonfly.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.barracuda]
+
+		[entities.barracuda.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 3
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:warm_ocean", "terraforged:warm_beach", "minecraft:lukewarm_ocean"]
+
+			[entities.barracuda.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.flying_fish]
+
+		[entities.flying_fish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:warm_ocean", "terraforged:warm_beach", "minecraft:lukewarm_ocean"]
+
+			[entities.flying_fish.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.piranha]
+
+		[entities.piranha.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:jungle", "terraforged:stone_forest", "biomesoplenty:tropics", "biomesoplenty:rainforest_floodplain", "biomesoplenty:fungal_field", "biomesoplenty:rainforest", "minecraft:jungle_edge", "biomesoplenty:rainforest_cliffs", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:jungle_hills", "biomesoplenty:fungal_jungle", "biomesoplenty:tropic_beach", "minecraft:bamboo_jungle_hills"]
+
+			[entities.piranha.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+

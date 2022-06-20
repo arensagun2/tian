@@ -1,0 +1,10 @@
+
+#Block connection configuration settings
+[connection]
+	#In what placement order should horizontal blocks be connected to adjacent ones.(Default to LEFT2RIGHT)
+	#Allowed Values: LEFT2RIGHT, RIGHT2LEFT, BOTH, NEITHER
+	horConnectionDir = "LEFT2RIGHT"
+	#In what placement order should vertical blocks be connected to adjacent ones.(Default to BOTTOM2TOP)
+	#Allowed Values: BOTTOM2TOP, TOP2BOTTOM, BOTH, NEITHER
+	verConnectionDir = "BOTTOM2TOP"
+
