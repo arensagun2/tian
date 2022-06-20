@@ -1,3 +1,3 @@
 # Tian Modpack - a Minecraft Modpack
 
-created by iahntot,  and Scenon
+created by iahntot, toriluvsian and Scenon
