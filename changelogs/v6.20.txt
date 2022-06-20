@@ -24,3 +24,4 @@ Version 6.20
   - Leather
 - Configure Random Patches
 - Increase Item Stack Limit
+- BASICALLY CONFIUGURE EVERYTHING
