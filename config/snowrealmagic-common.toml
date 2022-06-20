@@ -7,7 +7,7 @@ snowAccumulationDuringSnowstorm = true
 snowAccumulationDuringSnowfall = false
 #9 = Unlimited
 #Range: 1 ~ 9
-snowAccumulationMaxLayers = 8
+snowAccumulationMaxLayers = 9
 #Unavailable if TerraForged mod installed
 thinnerBoundingBox = true
 snowMakingIce = true

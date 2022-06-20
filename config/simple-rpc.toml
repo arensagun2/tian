@@ -2,15 +2,15 @@
 #General Config Section
 [general]
 	#The Application ID of the Discord App to use
-	clientID = 762726289341677668
+	clientID = 971396796192538656
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Enable/Disable the in game config screen
-	configScreen = true
+	configScreen = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
-	launcherIntegration = false
+	launcherIntegration = true
 	#Internal Version Number. NO TOUCHY!
 	version = 13
 
@@ -19,17 +19,17 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Minecraft is loading"
+	description = ""
 	#The second line of text under the app name
-	state = "Game Starting..."
+	state = "Loading..."
 	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "by Tian"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "1.16"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -38,17 +38,17 @@
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is currently lazy"
+	description = ""
 	#The seconds line of text under the app name
 	state = "Chilling in the menu"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "by Tian"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "1.16"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -57,24 +57,24 @@
 	#Enable/Disable the Server List Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is looking for a server"
+	description = ""
 	#The second line of text under the app name
-	state = "Searching for friends"
+	state = "Chilling in the server menu"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "by Tian"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "1.16"
 	#The buttons to display on Discord
 	buttons = []
 
 #The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
 	description = "%player% is looking for a Realm"
 	#The second line of text under the app name
@@ -95,17 +95,17 @@
 	#Enable/Disable the Join Game Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is joining a game"
+	description = ""
 	#The second line of text under the app name
 	state = "Joining Game"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "by Tian"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "1.16"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -114,17 +114,17 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Currently In %world%"
+	description = "Currently In %savename%"
 	#The second line of text under the app name
 	state = "Playing lonely mode"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "by Tian"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "1.16"
 	#The buttons to display on Discord
 	buttons = []
 
@@ -133,24 +133,24 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on %servername% with %players% players"
+	description = "Playing in a server with %players% players"
 	#The second line of text under the app name
-	state = "Playing online"
+	state = "Playing with friends"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "by Tian"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "1.16"
 	#The buttons to display on Discord
 	buttons = []
 
 #The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
 	description = "Playing on %realmname%"
 	#The second line of text under the app name
@@ -169,17 +169,17 @@
 #Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
-	description = "Playing Minecraft"
+	description = "Playing Tian"
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "by Tian"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "1.16"
 	#The buttons to display on Discord
 	buttons = []
 
