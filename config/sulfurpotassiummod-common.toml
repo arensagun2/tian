@@ -1,0 +1,28 @@
+
+["Disable nether/overworld for Sulfur"]
+
+	["Disable nether/overworld for Sulfur".generationconfig]
+		#No comment
+		should_sulfur_spawn_in_nether = true
+		#No comment
+		should_sulfur_spawn_in_overworld = true
+
+["Spawn Rates Data"]
+
+	["Spawn Rates Data".generationconfig]
+		#Default is 9
+		#Range: 0 ~ 100
+		sulfur_vein_size = 9
+		#Default is 64
+		#Range: 1 ~ 255
+		sulfur_upper_limit = 48
+		#Default is 14
+		#Range: 0 ~ 100
+		sulfur_nether_vein_size = 14
+		#Default is 9
+		#Range: 0 ~ 100
+		potassium_vein_size = 9
+		#Default is 128
+		#Range: 1 ~ 255
+		potassium_upper_limit = 128
+
