@@ -23,4 +23,4 @@ Version 6.20
   - String
   - Leather
 - Configure Random Patches
-- Configure 
+- Increase Item Stack Limit
