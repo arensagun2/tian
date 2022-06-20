@@ -12,3 +12,15 @@ Version 6.20
 - Remove flint recipe from Tinkers Construct
 - Remove custom belt
 - Remove Create and Quark Config Buttons
+- Configure IguanaTweaks
+- Add compat to Falling Tree with Tinker's Tools
+- Remove FpsReducer Hud
+- Delete DecoCraftia Mod
+- Remove ore duplication
+- Configure Ice and Fire: Dragon mobs
+- Add crafting:
+  - Backpack
+  - String
+  - Leather
+- Configure Random Patches
+- Configure 
