@@ -1,1 +1,14 @@
+Version 6.20
 
+- Create a new menu and loading screen
+- Remove Cold Sweat Config Button
+- Remove Ice and Fire: Dragons Menu
+- Remove Hotbar Swapper from Quark
+- Remove Starting Books from Apotheosis, Advanced Peripherals and Tinkers Construct
+- Configure VTweaks
+- Add drinking with hand
+- Add configured Mod
+- Disable Recipe Book
+- Remove flint recipe from Tinkers Construct
+- Remove custom belt
+- Remove Create and Quark Config Buttons
