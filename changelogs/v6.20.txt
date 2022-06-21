@@ -1,11 +1,7 @@
 Version 6.21
 
 📝 Noted 📝
-- Create a new menu and loading screen
-- Remove Cold Sweat Config Button
-- Remove ore duplication
 - Configure Ice and Fire: Dragon mobs drops then finished
-- BASICALLY CONFIUGURE EVERYTHING
 - Add Mods: Configured, Guard Villagers, Clef, Iron Chest, Iron Jetpack, V Tweaks
 
 ✅ Finished ✅
@@ -27,6 +23,8 @@ Version 6.21
 - Remove Starting Books from Apotheosis, Advanced Peripherals and Tinkers Construct
 - Remove Create and Quark Config Buttons
 - Remove Hotbar Swapper from Quark
+- Remove Cold Sweat Config Button
 
 ❗ Watch ❗
 - Add compat to Falling Tree with Tinker's Tools
+- Remove ore duplication
