@@ -8,7 +8,7 @@ Version 6.21
 - Remove Create and Quark Config Buttons
 - Add compat to Falling Tree with Tinker's Tools
 - Remove ore duplication
-- Configure Ice and Fire: Dragon mobs 
+- Configure Ice and Fire: Dragon mobs drops then finished
 - Add crafting:
   - Backpack
   - String
