@@ -1,4 +1,4 @@
-Version 6.20
+Version 6.21
 
 - Create a new menu and loading screen
 - Remove Cold Sweat Config Button
