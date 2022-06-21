@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "mob": "iceandfire:fire_dragon",
+    "item": "minecraft:stick",
+    "itemcount": "1"
+  }
+]
