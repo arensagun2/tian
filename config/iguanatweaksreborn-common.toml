@@ -348,7 +348,7 @@
 
 ["Stack Size"]
 	#Make food, items and blocks less stackable. Changes in this section require a Minecraft restart
-	"Enable Stack Reduction" = true
+	"Enable Stack Reduction" = false
 	#Change stack sizes as you please
 	"Enable Custom Stack Size Feature" = true
 
