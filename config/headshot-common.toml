@@ -18,5 +18,5 @@
 	doHelmetMitigation = false
 	#Choose the damage multiplier done on a headshot. [default 1.5]
 	#Range: 1.0 ~ 999.0
-	damageMultiplier = 1.5
+	damageMultiplier = 2.0
 
