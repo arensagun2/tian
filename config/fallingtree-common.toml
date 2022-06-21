@@ -74,7 +74,7 @@ break_in_creative = false
 	ignore_tools = false
 	#Additional list of tools that can be used to chop down a tree.
 	#INFO: Items marked with the axe tag will already be whitelisted.
-	whitelisted = ["#forge:axe"]
+	whitelisted = ["tconstruct:hand_axe"]
 	#List of tools that should not be considered as tools.
 	#INFO: This wins over the whitelist.
 	blacklisted = []
