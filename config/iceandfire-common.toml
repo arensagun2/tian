@@ -37,12 +37,12 @@
 		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 180
+		"Generate Dragon Cave Chance" = 250
 		#Whether to generate dragon roosts or not
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 360
+		"Generate Dragon Roost Chance" = 400
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
 		"Dragon Den Gold Amount" = 4
@@ -116,7 +116,7 @@
 		"Dragon Attack Damage(Lightning breath)" = 3.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
-		"Dragon Flight Speed Modifier" = 1.0
+		"Dragon Flight Speed Modifier" = 1.2
 		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
 		"Dragon Moved Wrongly Error Fix" = false
 
