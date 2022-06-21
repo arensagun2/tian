@@ -4,26 +4,26 @@ Version 6.21
 - Remove Cold Sweat Config Button
 - Remove Hotbar Swapper from Quark
 - Remove Starting Books from Apotheosis, Advanced Peripherals and Tinkers Construct
-- Disable Recipe Book
 - Remove Create and Quark Config Buttons
 - Add compat to Falling Tree with Tinker's Tools
 - Remove ore duplication
 - Configure Ice and Fire: Dragon mobs drops then finished
-- Add crafting:
-  - Backpack
-  - String
-  - Leather
 - Configure Random Patches
 - BASICALLY CONFIUGURE EVERYTHING
 - Add Mods: Configured, Guard Villagers, Clef, Iron Chest, Iron Jetpack, V Tweaks
 
 ~~Finished~~
-- Increase Item Stack Limit✔️
-- Remove FpsReducer HUD ✔️
-- Remove Mods: DecoCraftia, Genetic Animals✔️
-- Configure IguanaTweaks ✔️
-- Remove flint recipe from Tinkers Construct ✔️
-- Remove custom belt and quiver slots ✔️
-- Configure VTweaks ✔️
-- Add drinking with hand ✔️
-- Remove Ice and Fire: Dragons Menu ✔️
+- Increase Item Stack Limit
+- Remove FpsReducer HUD
+- Remove Mods: DecoCraftia, Genetic Animal
+- Configure IguanaTweaks
+- Remove flint recipe from Tinkers Construct
+- Remove custom belt and quiver slots
+- Configure VTweaks
+- Add drinking with hand
+- Remove Ice and Fire: Dragons Menu
+- Add crafting:
+  - Backpack
+  - String
+  - Leather
+- Disable Recipe Book
