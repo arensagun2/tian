@@ -36,7 +36,7 @@
 		allow_fallback = true
 		#Screen side to render status effects on.
 		#Allowed Values: LEFT, RIGHT
-		screen_side = "LEFT"
+		screen_side = "RIGHT"
 		#What to do when there are more effects to display than there is room on-screen.
 		#Allowed Values: CONDENSE, SKIP
 		overflow_mode = "CONDENSE"

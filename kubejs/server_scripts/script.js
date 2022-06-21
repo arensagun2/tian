@@ -9,6 +9,17 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
 	// Change recipes here
+	event.shaped('backpacked:backpack', [
+	    'LLL',
+	    'SIS',
+	    'LLL'
+	], {
+	    L: 'minecraft:leather',
+	    S: '#forge:string',
+	    I: 'minecraft:iron_ingot'
+	})
+	event.shapeless('2x minecraft:string', '#minecraft:wool')
+	event.smelting('minecraft:leather', 'minecraft:rotten_flesh')
 })
 
 onEvent('item.tags', event => {

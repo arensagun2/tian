@@ -1,0 +1,14 @@
+🔥Version 6.21🔥 BETA
+
+🔥📝 Noted 📝🔥
+
+🔥✅ Finished ✅🔥
+- Add Mod: Two Player One Horse, Optifine Checker, Tom's Simple Storage, Lazy DFU
+- Remove Mod: Smooth Boot
+- Remove Copper from Caves and Cliffs Backport Mod
+- Tweak/Update Backpacked config file
+- Updated ServerScirpts from KubeJS
+
+💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
+- Remove ore duplication
+- Disable Creeper

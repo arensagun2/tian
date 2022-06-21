@@ -50,9 +50,9 @@
 
 		["World Generation"."Ore Generation"."Copper Settings"]
 			#Determines if Copper should generate so it doesn't interfere with other modded copper.
-			GenerateCopperOre = true
+			GenerateCopperOre = false
 			#Determines if Large Copper Blobs should generate in Dripstone Caves.
-			DripstoneCaveLargeCopperBlobs = true
+			DripstoneCaveLargeCopperBlobs = false
 
 		["World Generation"."Ore Generation"."Deepslate Settings"]
 			#Determines the weight of spawning for Deepslate.
@@ -84,7 +84,7 @@
 		#Determines if Copper from other mods should also drop Raw Copper.
 		RawOreDropsForExternalCopper = false
 		#Determines if Iron, Gold and Copper should drop Raw Ores.
-		RawOreDrops = true
+		RawOreDrops = false
 
 ["Client Settings"]
 	#Determines the Value for the Panorama to display. 
