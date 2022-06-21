@@ -4,7 +4,7 @@ Version 6.21
 - Create a new menu and loading screen
 - Remove Cold Sweat Config Button
 - Remove ore duplication
-- Configure Ice and Fire: Dragon mobs drops then finished
+- Configure Ice and Fire: Dragon mobs drops
 - BASICALLY CONFIUGURE EVERYTHING
 - Add Mods: Configured, Guard Villagers, Clef, Iron Chest, Iron Jetpack, V Tweaks
 
