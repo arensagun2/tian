@@ -1,10 +1,10 @@
 🔥Version 6.21🔥
 
-📝 Noted 📝
+🔥📝 Noted 📝🔥
 - Configure Ice and Fire: Dragon mobs drops
 - Add Mods: Configured, Guard Villagers, Clef, Iron Chest, Iron Jetpack, V Tweaks
 
-✅ Finished ✅
+🔥✅ Finished ✅🔥
 - Increase Item Stack Limit
 - Remove FpsReducer HUD
 - Remove Mods: DecoCraftia, Genetic Animal
@@ -25,6 +25,6 @@
 - Remove Hotbar Swapper from Quark
 - Remove Cold Sweat Config Button
 
-❗ Watch ❗
+💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Add compat to Falling Tree with Tinker's Tools
 - Remove ore duplication
