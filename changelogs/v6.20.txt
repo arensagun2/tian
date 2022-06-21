@@ -22,7 +22,7 @@ Version 6.21
   - String
   - Leather
 - Configure Random Patches
-- Increase Item Stack Limit
+- Increase Item Stack Limit✔️
 - BASICALLY CONFIUGURE EVERYTHING
 - Add Mods: Configured, Guard Villagers, Clef, Iron Chest, Iron Jetpack, V Tweaks
 

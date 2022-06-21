@@ -1,7 +1,17 @@
 [
   {
     "mob": "iceandfire:fire_dragon",
+    "item": "iceandfire:dragon_meal",
+    "itemcount": "3"
+  },
+  {
+    "mob": "iceandfire:ice_dragon",
+    "item": "iceandfire:dragon_meal",
+    "itemcount": "3"
+  },
+  {
+    "mob": "iceandfire:lightning_dragon",
     "item": "minecraft:stick",
-    "itemcount": "1"
+    "itemcount": "3"
   }
 ]
