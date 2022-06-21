@@ -1,0 +1,14 @@
+🔥Version 6.30🔥 BETA
+
+🔥📝 Noted 📝🔥
+- Custom Menu and Loading Screen
+- Configure Ice and Fire: Dragon mobs drops
+- Updated ServerScirpts from KubeJS
+- Tweak/Update Backpacked config file
+- Remove Mod: Stylish Effects
+- Add storage terminal
+
+🔥✅ Finished ✅🔥
+
+💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
+- Remove ore duplication
