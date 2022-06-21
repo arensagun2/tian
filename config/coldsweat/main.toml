@@ -1,5 +1,5 @@
 #Show the config menu button in the Options menu
-ShowConfigButton = true
+ShowConfigButton = false
 #Overrides all other config options for easy difficulty management
 #Range: 1 ~ 5
 Difficulty = 3
