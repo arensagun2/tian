@@ -6,6 +6,7 @@
 - Updated ServerScirpts from KubeJS
 - Tweak/Update Backpacked config file
 - Remove Mod: Stylish Effects
+- Add storage terminal
 
 🔥✅ Finished ✅🔥
 
