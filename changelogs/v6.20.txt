@@ -14,7 +14,7 @@ Version 6.20
 - Configure IguanaTweaks
 - Add compat to Falling Tree with Tinker's Tools
 - Remove FpsReducer Hud
-- Remove Mods: DecoCraftia ✔️
+- Remove Mods: DecoCraftia, Genetic Animals✔️
 - Remove ore duplication
 - Configure Ice and Fire: Dragon mobs
 - Add crafting:

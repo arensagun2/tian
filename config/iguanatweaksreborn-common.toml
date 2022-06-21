@@ -16,7 +16,7 @@
 	#Less durable tools. Changing this config options requires a Minecraft restart
 	"Enable Tool Nerf" = true
 	#Spawners will no longer spawn mobs infinitely
-	"Enable Temporary Spawners" = true
+	"Enable Temporary Spawners" = false
 
 	#Various changes to explosions from knockback to shielding.
 	[Miscellaneous."Explosion Overhaul"]
@@ -83,11 +83,11 @@
 	["Sleep & Respawn"."Sleeping Effects"]
 		#How much the hunger bar is depleted when you wake up in the morning. Saturation depleted is based off this value times 2. Setting to 0 will disable this feature.
 		#Range: -20 ~ 20
-		"Hunger Depleted on Wake Up" = 11
+		"Hunger Depleted on Wake Up" = 4
 		#A list of effects to apply to the player when he wakes up.
 		#The format is modid:potion_id,duration_in_ticks,amplifier
 		#E.g. 'minecraft:slowness,240,1' will apply Slowness II for 12 seconds to the player.
-		"Effects on Wake Up" = ["minecraft:slowness,400,1", "minecraft:regeneration,200,1", "minecraft:weakness,300,1", "minecraft:mining_fatigue,300,1"]
+		"Effects on Wake Up" = ["minecraft:slowness,400,1", "minecraft:regeneration,200,1", "minecraft:weakness,300,1", "minecraft:mining_fatigue,300,1", "toughasnails:thirst,300,2"]
 		#If the player's hunger bar is below 'Hunger Depleted on Wake Up' he can't sleep.
 		"No Sleep If Hungry" = true
 
@@ -100,7 +100,7 @@
 	#Decrease (or Increase) every experience point dropped in the world
 	"Enable Global Experience" = false
 	#Decrease (or Increase) experience dropped by blocks broken
-	"Enable Experience From Blocks" = true
+	"Enable Experience From Blocks" = false
 	#Decrease (or Increase) experience dropped mobs spawned by Spawners
 	"Enable Experience From Spawners' Mobs" = true
 	#Changes the experience lost on death and xp per level required.
@@ -135,7 +135,7 @@
 		"Better Scaling XP to next level" = true
 		#On death, players will drop this percentage of experience instead of max 7 levels. Setting to -1 will disable this.Due to Minecraft limitations this is incompatible with other mods that change the level scaling (e.g. Allurement's 'Remove level Scaling')
 		#Range: -1.0 ~ 1.0
-		"Experience Dropped on Death" = 0.8
+		"Experience Dropped on Death" = 0.25
 
 [Mining]
 	#Change all the blocks hardness
@@ -149,7 +149,7 @@
 	[Mining."Global Hardness"]
 		#Multiplier applied to the hardness of blocks. E.g. with this set to 3.0 blocks will take 3x more time to break.
 		#Range: 0.0 ~ 128.0
-		"Hardness Multiplier" = 4.0
+		"Hardness Multiplier" = 2.0
 		#A list of dimensions and their relative block hardness multiplier. Each entry has a a dimension and hardness. This overrides the global multiplier.
 		#E.g. ["minecraft:overworld,2", "minecraft:the_nether,4"]
 		"Dimension Hardness Multiplier" = []
@@ -225,7 +225,7 @@
 	#Armor slows down the player based off the Armor and Toughness given.
 	"Enable Weighted Armor" = true
 	#Prevents the player from placing blocks below him when in mid air.
-	"Enable No Pillaring" = true
+	"Enable No Pillaring" = false
 	#Different weathers slowdown the player more.
 	"Enable Weather Slowdown" = false
 	#Player's slowed down for a brief moment when hit.
@@ -235,12 +235,12 @@
 	[Movement."Weighted Armor"]
 		#Percentage slowdown per point of armor the player is wearing.
 		#Range: 0.0 ~ 1.0
-		"Slowdown per Armor" = 0.015
+		"Slowdown per Armor" = 0.01
 		#This value times the Armor Toughness worn by the player is a percentage increase of the Slowdown per Armor.
 		#Total percentage slowdown is '(slowness_per_armor * armor_points) * (1 + (toughness * percentage_per_toughness))'
 		#E.g. with 'Slowness per Armor' set to 0.02 and this set to 0.04 and the player wearing Diamond Armor the slowdown is '(0.02 * 20) * (1 + (8 * 0.04))' = '0.4 * 1.32'= '0.528' = -52.8% Speed applied to the player.
 		#Range: 0.0 ~ 1.0
-		"Percentage Increase per Toughness" = 0.03
+		"Percentage Increase per Toughness" = 0.02
 		#Define here a list of total slowdown percentage (with full armor) per material. This has priority over 'Slowdown per Armor' and 'Percentage Increase per Toughness'. Material's names are the names in the armor's ids. E.g. Gold Armor is 'golden' as the ids are like 'golden_chestplate'.
 		#Format is material,total_slowdown
 		"Material Weight" = ["leather,0.04", "chainmail,0.12", "golden,0.08", "iron,0.15", "diamond,0.25", "netherite,0.333"]
@@ -275,11 +275,11 @@
 	[Hunger."Food Hunger"]
 		#Food's hunger restored will be multiplied by this value (rounded up). E.g. With this set to 0.5 a Cooked Porkchop would heal 4 hunger instead of 8. Setting to 1 will disable this feature.
 		#Range: 0.0 ~ 20.0
-		"Food Hunger Multiplier" = 0.63
+		"Food Hunger Multiplier" = 0.4
 		#Food's saturation restored will be multiplied by this value. Be aware that saturation is a multiplier and not a flat value, it is used to calculate the effective saturation restored when a player eats, and this calculation includes hunger, so by reducing hunger you automatically reduce saturation too. Setting to 1 will disable this feature.
 		#This requires a Minecraft Restart.
 		#Range: 0.0 ~ 64.0
-		"Food Saturation Multiplier" = 1.0
+		"Food Saturation Multiplier" = 0.8
 		#Define custom food values, one string = one item. Those items are not affected by other changes such as 'Food Hunger Multiplier'.
 		#The format is modid:itemid,hunger,saturation. Saturation is optional
 		#E.g. 'minecraft:cooked_porkchop,16,1.0' will make cooked porkchops give 8 shranks of food and 16 saturation (actual saturation is calculated by 'saturation * 2 * hunger').
@@ -306,13 +306,13 @@
 		#NONE: Use custom values
 		#COMBAT_TEST: health regeneration works like the Combat Tests Shapshots,IGUANA_TWEAKS: health regen is slow (1 hp every 10 secs) and also the player can have Bleeding and Well Fed effects that slow down / speed up the health regen.
 		#Allowed Values: NONE, COMBAT_TEST, IGUANA_TWEAKS
-		"Health Regen Preset" = "IGUANA_TWEAKS"
+		"Health Regen Preset" = "NONE"
 		#Sets how many ticks between the health regeneration happens (vanilla is 80; Combat Test Snapshot is 40; Iguana Tweaks preset is 200).
 		#Range: > 0
-		"Health Regen Speed" = 80
+		"Health Regen Speed" = 60
 		#Sets how much hunger the player must have to regen health (vanilla is >17; Combat Test Snapshot; Iguana Tweaks preset is >3).
 		#Range: > 0
-		"Regen when Hunger Above" = 17
+		"Regen when Hunger Above" = 15
 		#Sets how many ticks between starve damage happens (vanilla and Combat Test Snapshot is 80; Iguana Tweaks preset is 40, but you start talking damage when hunger <= 3 and less hunger = faster starve, also in hard is faster and in easy is slower).
 		#Range: > 0
 		"Starve Speed" = 80
@@ -327,9 +327,9 @@
 		#Range: 0.0 ~ 1.0
 		"Hunger Consumption Chance" = 0.0
 		#Set to true to enable Well Fed, a new effect that speeds up health regen and is applied whenever the player eats (disabled for Vanilla and Combat Test; enabled for Iguana Tweaks preset).
-		"Enable Well Fed" = false
+		"Enable Well Fed" = true
 		#Set to true to enable Injured, a new effect that slows down health regen and is applied whenever the player is damaged (disabled for Vanilla and Combat Test; enabled for Iguana Tweaks preset).
-		"Enable Injured" = false
+		"Enable Injured" = true
 		#When eating you'll get healed by this percentage of (hunger + saturation) restored.
 		#Range: 0.0 ~ 128.0
 		"Food Heal Multiplier" = 0.0
@@ -344,7 +344,7 @@
 		"Eating Speed Based Off Food Config" = true
 		#Multiplier for the time taken to eat. Only applied if 'Eating Speed Based Off Food Config' is active.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Eating Time Multiplier" = 0.15
+		"Eating Time Multiplier" = 0.01
 
 ["Stack Size"]
 	#Make food, items and blocks less stackable. Changes in this section require a Minecraft restart
@@ -359,22 +359,22 @@
 		"Food Stack Reduction" = true
 		#Used in the 'Food Stack Reduction' formula. It's recommended to increase this if there are foods that are better than vanilla ones.
 		#Range: 1.0 ~ 40.0
-		"Food Quality Divider" = 18.5
+		"Food Quality Divider" = 40.0
 		#All the foods max stack sizes will be multiplied by this value to increase / decrease them (after Food Stack Reduction).
 		#Range: 0.01 ~ 64.0
-		"Food Stack Multiplier" = 0.6
+		"Food Stack Multiplier" = 0.8
 		#If true, soups will stack like normal food.
 		"Stackable Soups" = true
 		#Items max stack sizes (excluding blocks) will be multiplied by this value. Foods will be overridden by 'Food Stack Reduction' or 'Food Stack Multiplier' if are active. Setting to 1 will disable this feature.
 		#Range: 0.01 ~ 1.0
-		"Item Stack Multiplier" = 0.5
+		"Item Stack Multiplier" = 0.8
 		#Blocks max stack sizes will be reduced based off their material.
 		"Block Stack Reduction" = true
 		#All the blocks max stack sizes will be multiplied by this value to increase / decrease them. This is applied after the reduction from 'Block Stack Reduction'.
 		#Range: 0.01 ~ 64.0
-		"Block Stack Multiplier" = 1.0
+		"Block Stack Multiplier" = 0.6
 		#When true, block stacks are affected by both their material type and the block stack multiplier. If false, block stacks will be affected by the multiplier only.
-		"Block Stack Affected by Material" = true
+		"Block Stack Affected by Material" = false
 
 		#Items or tags that will ignore the stack changes. This can be inverted via 'Blacklist as Whitelist'. Each entry has an item or tag. E.g. ["#minecraft:fishes", "minecraft:stone"].
 		["Stack Size"."Stack Reduction".Blacklist]
@@ -395,38 +395,38 @@
 	#Slower breeding, Growing, Egging and Milking
 	"Enable Livestock Slowdown" = true
 	#Bonemeal is no longer so OP
-	"Enable Nerfed Bonemeal" = true
+	"Enable Nerfed Bonemeal" = false
 	#Slower Crops growing based off various factors
 	"Enable Crops Growth" = true
 	#Slower Plants (non-crops) growing
-	"Enable Plants Growth" = true
+	"Enable Plants Growth" = false
 	#Slower Hoes and more fragile
-	"Enable Hoes Nerfs" = true
+	"Enable Hoes Nerfs" = false
 	#Crops are no longer insta-minable. This applies only to blocks that are instances of net.minecraft.world.level.block.CropBlock.
 	#Crops hardness is still affected by the Hardness module.
 	#Changing anything requires a minecraft restart.
-	"Enable Harder Crops" = true
+	"Enable Harder Crops" = false
 
 	#Slower breeding, Growing, Egging and Milking
 	[Farming."Livestock Slowdown"]
 		#Increases the time required for Baby Animals to grow (e.g. at 2.0 Animals will take twice to grow).
 		#1.0 will make Animals grow like normal.
 		#Range: 1.0 ~ 128.0
-		"Childs Growth Multiplier" = 3.0
+		"Childs Growth Multiplier" = 1.5
 		#If true, 'Childs Growth Multiplier' will be applied to villagers too.
 		"Childs Growth Villagers" = true
 		#Increases the time required for Animals to breed again (e.g. at 2.0 Animals will take twice to be able to breed again).
 		#1.0 will make Animals breed like normal.
 		#Range: 1.0 ~ 128.0
-		"Breeding Time Multiplier" = 3.5
+		"Breeding Time Multiplier" = 1.75
 		#Increases the time required for Chickens to lay an egg (e.g. at 2.0 Chickens will take twice the time to lay an egg).
 		#1.0 will make chickens lay eggs like normal.
 		#Range: 1.0 ~ 128.0
-		"Egg Lay Multiplier" = 3.0
+		"Egg Lay Multiplier" = 1.5
 		#Seconds before a cow can be milked again. This applies to Mooshroom stew too.
 		#0 will disable this feature.
 		#Range: > 0
-		"Cow Milk Delay" = 1200
+		"Cow Milk Delay" = 600
 
 	#Bonemeal is no longer so OP
 	[Farming."Nerfed Bonemeal"]
@@ -467,12 +467,12 @@
 		#Setting this to 0 will prevent crops from growing naturally.
 		#1.0 will make crops grow like normal.
 		#Range: 0.0 ~ 128.0
-		"Crops Growth Speed Multiplier" = 2.5
+		"Crops Growth Speed Multiplier" = 1.25
 		#Increases the time required for a crop to grow when it's sky light level is below "Min Sunlight", (e.g. at 2.0 when the crop has a skylight below "Min Sunlight" will take twice to grow).
 		#Setting this to 0 will prevent crops from growing when sky light level is below "Min Sunlight".
 		#1.0 will make crops growth not affected by skylight.
 		#Range: 0.0 ~ 128.0
-		"No Sunlight Growth Multiplier" = 2.0
+		"No Sunlight Growth Multiplier" = 1.5
 		#Increases the time required for a crop to grow when it's night time.
 		#Setting this to 0 will prevent crops from growing when it's night time.
 		#1.0 will make crops growth not affected by night.
