@@ -8,7 +8,7 @@
 	#Range: 1.0 ~ 20.0
 	sleepyFactor = 2.0
 	#Set to true to enable sleeping in hammocks at night
-	nightHammocks = false
+	nightHammocks = true
 	#The chance that a sleeping bag will break upon usage
 	#Range: 0.0 ~ 1.0
 	sleepingBagBreakage = 0.0
@@ -16,5 +16,5 @@
 	#Format: [effect] [duration(secs)] [power]
 	sleepingBagDebuffs = []
 	#[Survive Mod Integration] Set to true to have sleeping bags increase your body temperature after sleeping
-	insulatedSleepingBag = false
+	insulatedSleepingBag = true
 

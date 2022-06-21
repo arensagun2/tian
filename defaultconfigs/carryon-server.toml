@@ -34,7 +34,7 @@
 	#Use Whitelist instead of Blacklist for Blocks
 	useWhitelistBlocks = false
 	#Use Whitelist instead of Blacklist for Entities
-	useWhitelistEntities = false
+	useWhitelistEntities = true
 	#Use Whitelist instead of Blacklist for Stacking
 	useWhitelistStacking = false
 	#Whether the player can hit blocks and entities while carrying or not
@@ -44,7 +44,7 @@
 	#Use custom Pickup Scripts. Having this set to false, will not allow you to run scripts, but will increase your performance
 	useScripts = false
 	#Whether entities' size matters when stacking or not
-	stackableEntities = true
+	stackableEntities = false
 
 [blacklist]
 	#Blocks that cannot be picked up

@@ -1,3 +1,18 @@
 #List of curio slot type settings
-curiosSettings = []
-
+[[curiosSettings]]
+	identifier = "ring"
+	size = 4
+	hasCosmetic = false
+	override = true
+[[curiosSettings]]
+	identifier = "charm"
+	size = 2
+	hasCosmetic = false
+	override = true
+[[curiosSettings]]
+	identifier = "quiver"
+	visible = false
+[[curiosSettings]]
+	identifier = "tail"
+	hasCosmetic = false
+	override = true
