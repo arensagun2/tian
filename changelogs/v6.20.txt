@@ -2,7 +2,7 @@
 
 🔥📝 Noted 📝🔥
 - Configure Ice and Fire: Dragon mobs drops
-- Add Mods: Configured, Guard Villagers, Clef, Iron Chest, Iron Jetpack, V Tweaks
+
 
 🔥✅ Finished ✅🔥
 - Increase Item Stack Limit
@@ -24,6 +24,7 @@
 - Remove Create and Quark Config Buttons
 - Remove Hotbar Swapper from Quark
 - Remove Cold Sweat Config Button
+- Add Mods: Configured, Guard Villagers, Clef, Iron Chest, Iron Jetpack, V Tweaks
 
 💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Add compat to Falling Tree with Tinker's Tools
