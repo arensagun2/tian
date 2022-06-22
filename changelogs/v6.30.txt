@@ -3,6 +3,12 @@
 🔥📝 Noted 📝🔥
 - Custom Menu and Loading Screen
 - Ice and Fire: Dragon mob loot drop
+- Remove Shield Movement Reduction
+- Add Villager names
+- Tweak thirst
+- Change dragon speed
+- Enable Entity Carrying
+- Remove Mod: Two Player One Horse
 
 🔥✅ Finished ✅🔥
 
