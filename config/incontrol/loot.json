@@ -2,16 +2,21 @@
   {
     "mob": "iceandfire:fire_dragon",
     "item": ["iceandfire:dragon_meal"],
-    "itemcount": "3"
+    "itemcount": "6"
   },
   {
     "mob": "iceandfire:ice_dragon",
     "item": ["iceandfire:dragon_meal"],
-    "itemcount": "3"
+    "itemcount": "6"
   },
   {
     "mob": "iceandfire:lightning_dragon",
     "item": ["iceandfire:dragon_meal"],
-    "itemcount": "3"
+    "itemcount": "6"
+  },
+  {
+    "mob": "iceandfire:cyclops",
+    "item": ["minecraft:mutton","minecraft:emerald"],
+    "itemcount": "10"
   }
 ]
