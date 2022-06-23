@@ -5,8 +5,8 @@
 🔥✅ Finished ✅🔥
 - Disable Bits in JEI
 - Remove Aluminum from Tinker's Reforged
-- Add Mod: Portality, Performant, Load my Resources, LazyDFU
-- Remove Mod: Two Player One Horse
+- Add Mod: Portality, Performant, Load my Resources, SmoothBoot
+- Remove Mod: Two Player One Horse, LazyDFU
 - Updated Mod: Cave & Cliffs Backport, Konkrete
 - Ice and Fire: Dragon/cyclops mob loot drop
 - Add Villager names
