@@ -8,7 +8,10 @@
 - Tweak thirst
 - Change dragon speed
 - Enable Entity Carrying
+- Add Mod: Portality, Performant
 - Remove Mod: Two Player One Horse
+- Remove Aluminum from Tinker's Reforged
+- Disable Bits in JEI
 
 🔥✅ Finished ✅🔥
 
