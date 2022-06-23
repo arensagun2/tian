@@ -1,20 +1,20 @@
 🔥Version 6.21🔥 BETA
 
 🔥📝 Noted 📝🔥
-- Tweak thirst
-- Custom Menu and Loading Screen
 
 🔥✅ Finished ✅🔥
 - Disable Bits in JEI
 - Remove Aluminum from Tinker's Reforged
 - Add Mod: Portality, Performant
 - Remove Mod: Two Player One Horse
-- Updated Mod: Cave & Cliffs Backport
+- Updated Mod: Cave & Cliffs Backport, Konkrete
 - Ice and Fire: Dragon/cyclops mob loot drop
 - Add Villager names
 - Change dragon speed
 - Enable Entity Carrying
 - Remove Shield Movement Reduction
+- Custom Menu and Loading Screen
+- Tweak thirst
 
 💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Remove ore duplication
