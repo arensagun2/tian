@@ -1,8 +1,1 @@
-[
-    {
-        "mob": "minecraft:creeper",
-        "conditions": {
-            "maxthis": 0
-        }
-    }
-]
+[]
