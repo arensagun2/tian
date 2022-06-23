@@ -9,13 +9,12 @@
 - Change dragon speed
 - Enable Entity Carrying
 - Add Mod: Portality, Performant
-- Remove Mod: Two Player One Horse
-- Updated Mod: Cave & Cliffs Backport
-- Remove Aluminum from Tinker's Reforged
-- Disable Bits in JEI
 
 🔥✅ Finished ✅🔥
-
+- Disable Bits in JEI
+- Remove Aluminum from Tinker's Reforged
+- Remove Mod: Two Player One Horse
+- Updated Mod: Cave & Cliffs Backport
 
 💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Remove ore duplication
