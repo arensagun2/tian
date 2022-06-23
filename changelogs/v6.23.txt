@@ -3,11 +3,11 @@
 🔥📝 Noted 📝🔥
 - Tweak thirst
 - Custom Menu and Loading Screen
-- Add Mod: Portality, Performant
 
 🔥✅ Finished ✅🔥
 - Disable Bits in JEI
 - Remove Aluminum from Tinker's Reforged
+- Add Mod: Portality, Performant
 - Remove Mod: Two Player One Horse
 - Updated Mod: Cave & Cliffs Backport
 - Ice and Fire: Dragon/cyclops mob loot drop
