@@ -10,6 +10,7 @@
 - Enable Entity Carrying
 - Add Mod: Portality, Performant
 - Remove Mod: Two Player One Horse
+- Updated Mod: Cave & Cliffs Backport
 - Remove Aluminum from Tinker's Reforged
 - Disable Bits in JEI
 
