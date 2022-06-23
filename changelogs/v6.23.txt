@@ -4,7 +4,6 @@
 - Tweak thirst
 - Custom Menu and Loading Screen
 - Remove Shield Movement Reduction
-
 - Enable Entity Carrying
 - Add Mod: Portality, Performant
 
