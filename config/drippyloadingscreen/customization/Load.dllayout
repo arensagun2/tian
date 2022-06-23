@@ -1,0 +1,89 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resources/tiannnn.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  visible = false
+  action = editforgememoryinfo
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editforgestatustext
+}
+
+customization {
+  orientation = top-centered
+  visible = false
+  x = 0
+  action = editprogressbar
+  y = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 5
+  textcolor = #ffffff
+  action = addtext
+  actionid = 3d86bcbb-54f0-436f-9df7-2dd10e33fb321653520890159
+  y = -5
+  scale = 1.0
+  alignment = left
+  value = Tian-6.23-BETA
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  width = 412
+  actionid = fad7bda1-8142-4628-ac70-0877353725a71653536566784
+  y = -10
+  action = addcustomprogressbar
+  height = 10
+  direction = right
+  barcolor = #0000FF
+  backgroundcolor = #ADD8E6
+}
+
+customization {
+  orientation = top-right
+  basecolor = #000000
+  shadow = true
+  rotation = 20.0
+  x = -35
+  actionid = 1bdebad0-6120-4d0e-b5e2-33b02b2cd2021653536873566
+  action = addsplash
+  y = 30
+  scale = 1.0
+  refresh = false
+  text = tori & ian
+  bouncing = true
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 6
+  textcolor = #000000
+  action = addtext
+  actionid = 16083dd5-19a2-47e8-b9e4-b8733a1b629b1653537128356
+  y = 12
+  scale = 0.5
+  alignment = left
+  value = Playing as %playername%
+}
+
