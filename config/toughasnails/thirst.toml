@@ -8,10 +8,10 @@
 [drink_options]
 	#Thirst restored from drinking with hands.
 	#Range: 0 ~ 20
-	hand_drinking_thirst = 1
+	hand_drinking_thirst = 3
 	#Hydration restored from drinking with hands.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	hand_drinking_hydration = 0.1
+	hand_drinking_hydration = 0.3
 
 	#Effects of drinks from Vanilla, Tough As Nails and other mods.
 	[[drink_options.drink_entries]]
