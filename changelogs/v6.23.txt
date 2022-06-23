@@ -1,11 +1,9 @@
 🔥Version 6.21🔥 BETA
 
 🔥📝 Noted 📝🔥
-- Custom Menu and Loading Screen
-- Ice and Fire: Dragon mob loot drop
-- Remove Shield Movement Reduction
-- Add Villager names
 - Tweak thirst
+- Custom Menu and Loading Screen
+- Remove Shield Movement Reduction
 - Change dragon speed
 - Enable Entity Carrying
 - Add Mod: Portality, Performant
@@ -15,6 +13,8 @@
 - Remove Aluminum from Tinker's Reforged
 - Remove Mod: Two Player One Horse
 - Updated Mod: Cave & Cliffs Backport
+- Ice and Fire: Dragon/cyclops mob loot drop
+- Add Villager names
 
 💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Remove ore duplication
