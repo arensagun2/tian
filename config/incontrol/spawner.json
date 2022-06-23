@@ -1,6 +1,8 @@
 [
     {
         "mob": "minecraft:creeper",
-        "result": "deny"
+        "conditions": {
+            "maxthis": 0
+        }
     }
 ]
