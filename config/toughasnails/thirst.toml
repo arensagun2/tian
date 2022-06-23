@@ -8,7 +8,7 @@
 [drink_options]
 	#Thirst restored from drinking with hands.
 	#Range: 0 ~ 20
-	hand_drinking_thirst = 3
+	hand_drinking_thirst = 2
 	#Hydration restored from drinking with hands.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	hand_drinking_hydration = 0.3
@@ -22,31 +22,31 @@
 
 	[[drink_options.drink_entries]]
 		location = "toughasnails:dirty_water_bottle"
-		thirst = 1
-		hydration = 0.1
+		thirst = 4
+		hydration = 0.3
 		poison_chance = 0.75
 
 	[[drink_options.drink_entries]]
 		location = "toughasnails:dirty_water_canteen"
-		thirst = 1
-		hydration = 0.1
+		thirst = 4
+		hydration = 0.3
 		poison_chance = 0.75
 
 	[[drink_options.drink_entries]]
 		location = "toughasnails:purified_water_bottle"
-		thirst = 3
+		thirst = 6
 		hydration = 0.4
 		poison_chance = 0.0
 
 	[[drink_options.drink_entries]]
 		location = "toughasnails:purified_water_canteen"
-		thirst = 3
+		thirst = 6
 		hydration = 0.4
 		poison_chance = 0.0
 
 	[[drink_options.drink_entries]]
 		location = "toughasnails:water_canteen"
-		thirst = 2
+		thirst = 4
 		hydration = 0.2
 		poison_chance = 0.25
 
