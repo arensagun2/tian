@@ -3,7 +3,6 @@
 🔥📝 Noted 📝🔥
 - Tweak thirst
 - Custom Menu and Loading Screen
-- Remove Shield Movement Reduction
 - Add Mod: Portality, Performant
 
 🔥✅ Finished ✅🔥
@@ -15,6 +14,7 @@
 - Add Villager names
 - Change dragon speed
 - Enable Entity Carrying
+- Remove Shield Movement Reduction
 
 💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Remove ore duplication

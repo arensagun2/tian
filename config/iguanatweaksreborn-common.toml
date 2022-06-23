@@ -217,7 +217,7 @@
 		#If true, Iron armor gets +0.5 toughness, Netherite gets a total of +2 armor points and Protection is disabled.
 		"Armor Adjustments" = true
 		#If true, Shields will slowdown the player by 25%.
-		"Shield Slowdown" = true
+		"Shield Slowdown" = false
 		#If true and 'Armor Adjustments' is active, Protection will be re-enabled but with max level set to 3.
 		"Nerf Protection Enchantment" = false
 
