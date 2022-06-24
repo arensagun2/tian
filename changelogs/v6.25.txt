@@ -16,6 +16,7 @@
 - MouseTweaks
 - Sound Device Options
 - Stylish Effects
+- Better Armor Mod
 
 🔥📝 Noted 📝🔥
 - Tweak Thirst
