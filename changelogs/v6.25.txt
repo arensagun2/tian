@@ -16,12 +16,11 @@
 - MouseTweaks
 - Sound Device Options
 - Stylish Effects
-- Better Armor Mod
 
 🔥📝 Noted 📝🔥
 - Tweak Thirst
-- Add Mods: Bad Mobs, Toast Control, 
-- 
+- Add Mods: Bad Mobs, Toast Control, Better Armor Mod
+- Remove Mods: Kacy's Cosmetics
 
 🔥✅ Finished ✅🔥
 
