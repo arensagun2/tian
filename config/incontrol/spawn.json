@@ -2,5 +2,17 @@
     {
         "mob": "minecraft:creeper",
         "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie",
+        "speedmultiply": 1.25,
+        "result": "default",
+        "healthmultiply": 2,
+        "random": 0.2,
+        "customname": "BROTHER TYRONE",
+        "potion": "minecraft:strength,10000,1",
+        "helditem": "minecraft:diamond_sword",
+        "armorchest": "minecraft:diamond_chestplate",
+        "armorhelmet": "minecraft:diamond_helmet"
     }
 ]

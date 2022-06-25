@@ -4,7 +4,7 @@
 	#Enable sound reverb and filtering
 	"Enable Enhanced Sounds" = true
 	#Enable HRTF processing in OpenAL
-	"Enable HRTF Processing" = false
+	"Enable HRTF Processing" = true
 	#Enable conversion of stereo sounds to mono format for spacial play
 	"Enable Stereo to Mono Conversion" = true
 	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)

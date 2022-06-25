@@ -18,16 +18,25 @@
 - Stylish Effects
 
 🔥📝 Noted 📝🔥
-- Tweak Thirst
-- Add Mods: Bad Mobs, Toast Control, Better Armor Mod, 
-- Remove Mods: Kacy's Cosmetics, Headshot
-- Change Hourglass message
-- Enable Tin Generation
-- Disable Gorgon
 
 🔥✅ Finished ✅🔥
-
+- Set default world type to Terraforged
+- Disable Armor Adjustments from Iguana Tweaks
+- Disable Custom Block Hardness
+- Tweaked Thirst after sleeping
+- Enable Tin Generation
+- Enable Retrogen for all modded ores
+- Tweak Thirst
+- Added more villager names
+- Enable male and female villager names
+- Tweak eating speed
+- Change Hourglass message
+- Disable Gorgon
+- Optifine not needed anymore
+- Added BROTHER TYRONE lel
+- Add Mods: Toast Control, Rubidium, Rubidium Extras, Rubidium Dynamic Lights, Oculus, Dynamic Surroundings, Mixin Bootstrap
+- Remove Mods: Kacy's Cosmetics, Headshot, Optifine Checker, Immersive FX
+- Updated Mods: CC: Tweaked, InControl, SuperMartijn642's Config Lib
 
 💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Remove ore duplication
-- Disable Creeper

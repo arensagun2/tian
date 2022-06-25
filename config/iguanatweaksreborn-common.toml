@@ -87,7 +87,7 @@
 		#A list of effects to apply to the player when he wakes up.
 		#The format is modid:potion_id,duration_in_ticks,amplifier
 		#E.g. 'minecraft:slowness,240,1' will apply Slowness II for 12 seconds to the player.
-		"Effects on Wake Up" = ["minecraft:slowness,400,1", "minecraft:regeneration,200,1", "minecraft:weakness,300,1", "minecraft:mining_fatigue,300,1", "toughasnails:thirst,300,2"]
+		"Effects on Wake Up" = ["minecraft:slowness,400,1", "minecraft:regeneration,200,1", "minecraft:weakness,300,1", "minecraft:mining_fatigue,300,1", "toughasnails:thirst,300,1"]
 		#If the player's hunger bar is below 'Hunger Depleted on Wake Up' he can't sleep.
 		"No Sleep If Hungry" = true
 
@@ -141,7 +141,7 @@
 	#Change all the blocks hardness
 	"Enable Global Hardness" = true
 	#Change specific blocks hardness as well as black and whitelist. Zero hardness blocks changes require a Minecraft restart.
-	"Enable Custom Hardness" = true
+	"Enable Custom Hardness" = false
 	#Disables the mining of blocks in case you don't have the right tool
 	"Enable Wrong Tool" = false
 
@@ -215,7 +215,7 @@
 		#If true, Arrows from Crossbows will no longer deal random damage, but a set amount of damage (about 9 at a medium distance).
 		"Adjust Crossbow Damage" = true
 		#If true, Iron armor gets +0.5 toughness, Netherite gets a total of +2 armor points and Protection is disabled.
-		"Armor Adjustments" = true
+		"Armor Adjustments" = false
 		#If true, Shields will slowdown the player by 25%.
 		"Shield Slowdown" = false
 		#If true and 'Armor Adjustments' is active, Protection will be re-enabled but with max level set to 3.
@@ -344,7 +344,7 @@
 		"Eating Speed Based Off Food Config" = true
 		#Multiplier for the time taken to eat. Only applied if 'Eating Speed Based Off Food Config' is active.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Eating Time Multiplier" = 0.01
+		"Eating Time Multiplier" = 0.1
 
 ["Stack Size"]
 	#Make food, items and blocks less stackable. Changes in this section require a Minecraft restart
