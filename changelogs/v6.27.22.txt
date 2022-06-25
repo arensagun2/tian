@@ -1,0 +1,27 @@
+🔥Version 6.25.22🔥 BETA
+
+⬆️ Client Side Mods
+- Optifine
+- Optifine Checker
+- Enchantment Description
+- Better Animations Collections
+- Auudio
+- Controlling
+- DrippyLoadingScreen
+- Health Overlay
+- Fancy Menu
+- FPS Reducer
+- Item Physics Lite
+- Load My Resources
+- MouseTweaks
+- Sound Device Options
+- Stylish Effects
+
+🔥📝 Noted 📝🔥
+- Add more villager names
+- Add more random bosses
+
+🔥✅ Finished ✅🔥
+
+💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
+- Remove ore duplication
