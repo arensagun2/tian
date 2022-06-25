@@ -19,8 +19,11 @@
 
 🔥📝 Noted 📝🔥
 - Tweak Thirst
-- Add Mods: Bad Mobs, Toast Control, Better Armor Mod
-- Remove Mods: Kacy's Cosmetics
+- Add Mods: Bad Mobs, Toast Control, Better Armor Mod, 
+- Remove Mods: Kacy's Cosmetics, Headshot
+- Change Hourglass message
+- Enable Tin Generation
+- Disable Gorgon
 
 🔥✅ Finished ✅🔥
 
