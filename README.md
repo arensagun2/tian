@@ -1,8 +1,6 @@
 # modpack made for beginners
 
-<img src="https://imgur.com/DkX4rpO.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+<img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
 made by me and my girlfriend and a friend
 
