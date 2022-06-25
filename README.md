@@ -1,5 +1,9 @@
 # Minecraft Tian
 
+<img src="https://imgur.com/DkX4rpO.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 made by me and my girlfriend and a friend
 
 currently in BETA
