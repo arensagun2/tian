@@ -1,19 +1,19 @@
 🔥Version 6.25.22🔥 BETA
 
 ⬆️ Client Side Mods
-- Optifine
-- Optifine Checker
-- Enchantment Description
-- Better Animations Collections
 - Auudio
+- Better Animations Collections
 - Controlling
 - DrippyLoadingScreen
-- Health Overlay
-- Fancy Menu
+- Enchantment Description
 - FPS Reducer
+- Fancy Menu
+- Health Overlay
 - Item Physics Lite
 - Load My Resources
 - MouseTweaks
+- Optifine
+- Optifine Checker
 - Sound Device Options
 - Stylish Effects
 
