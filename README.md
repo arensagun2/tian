@@ -1,4 +1,4 @@
-# Minecraft Tian
+# modpack made for beginners
 
 <img src="https://imgur.com/DkX4rpO.png"
      alt="Markdown Monster icon"
