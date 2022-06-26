@@ -35,4 +35,11 @@ Denis,
 Howard,
 Ginger,
 Pinky,
-Lick
+Lick,
+Ivy,
+Kelly,
+Victoria,
+Audi,
+Babushka,
+Gon,
+Hisoka

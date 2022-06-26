@@ -21,6 +21,10 @@
 - Add more villager names
 - Add more random bosses
 - Loading Screen discord integration, change state to "Calling Tori..."
+- Tweak Hearth strength
+- Add Mods: Two Player One Horse
+- Remove Mods: Realistic Horse Genetics, Panda Genetics
+- Update Mods: Awesome Dungeons - Forge, Patchouli
 
 🔥✅ Finished ✅🔥
 
