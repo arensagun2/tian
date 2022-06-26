@@ -20,6 +20,7 @@
 🔥📝 Noted 📝🔥
 - Add more villager names
 - Add more random bosses
+- Loading Screen discord integration, change state to "Calling Tori..."
 
 🔥✅ Finished ✅🔥
 
