@@ -43,7 +43,7 @@ customization {
   y = -5
   scale = 1.0
   alignment = left
-  value = Tian-6.25-BETA
+  value = Tian-6.27.22-BETA
 }
 
 customization {

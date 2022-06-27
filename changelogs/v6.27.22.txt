@@ -22,12 +22,14 @@
 - Toast Control
 
 🔥📝 Noted 📝🔥
-- Tweak BROTHER TYRONE
-- Add more villager names
-- Add TATAY
 
 🔥✅ Finished ✅🔥
+- Add TATAY
+- Add more villager names
+- Disable fps counter hud
+- Increase Backpack size
 - Tweak Hearth strength
+- Tweak BROTHER TYRONE
 - Loading Screen/Simple Discord RPC, change loading state to "Calling Tori"
 - Add Mods: Two Player One Horse, PizzaCraft, Sushi Go Crafting
 - Remove Mods: Realistic Horse Genetics, Panda Genetics
