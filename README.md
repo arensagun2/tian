@@ -1,4 +1,4 @@
-# modpack made for beginners
+# Minecraft Modpack made for beginners
 
 <img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
