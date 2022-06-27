@@ -18,15 +18,16 @@
 - Stylish Effects
 
 🔥📝 Noted 📝🔥
+- Tweak BROTHER TYRONE
 - Add more villager names
-- Add more random bosses
-- Loading Screen discord integration, change state to "Calling Tori..."
-- Tweak Hearth strength
-- Add Mods: Two Player One Horse
-- Remove Mods: Realistic Horse Genetics, Panda Genetics
-- Update Mods: Awesome Dungeons - Forge, Patchouli
+- Add TATAY
 
 🔥✅ Finished ✅🔥
+- Tweak Hearth strength
+- Loading Screen/Simple Discord RPC, change loading state to "Calling Tori"
+- Add Mods: Two Player One Horse, PizzaCraft, Sushi Go Crafting
+- Remove Mods: Realistic Horse Genetics, Panda Genetics
+- Update Mods: Awesome Dungeons - Forge, Patchouli
 
 💯💯💯💯💯💯❗ Watch ❗💯💯💯💯💯
 - Remove ore duplication

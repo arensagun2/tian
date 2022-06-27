@@ -5,14 +5,16 @@
     },
     {
         "mob": "minecraft:zombie",
-        "speedmultiply": 1.25,
+        "speedmultiply": 1.1,
         "result": "default",
-        "healthmultiply": 2,
-        "random": 0.2,
+        "healthmultiply": 4,
+        "random": 0.1,
         "customname": "BROTHER TYRONE",
         "potion": "minecraft:strength,10000,1",
         "helditem": "minecraft:diamond_sword",
         "armorchest": "minecraft:diamond_chestplate",
-        "armorhelmet": "minecraft:diamond_helmet"
+        "armorhelmet": "minecraft:diamond_helmet",
+        "item": "minecraft:diamond",
+        "itemcount": 1
     }
 ]

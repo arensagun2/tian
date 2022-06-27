@@ -19,9 +19,9 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = ""
+	description = "Loading..."
 	#The second line of text under the app name
-	state = "Loading..."
+	state = "Calling Tori"
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "chinkyapereal"
 	#The text that gets displayed when the large image is hovered
