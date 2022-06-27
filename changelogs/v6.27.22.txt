@@ -5,17 +5,21 @@
 - Better Animations Collections
 - Controlling
 - DrippyLoadingScreen
+- Dynamic Surroundings
 - Enchantment Description
 - FPS Reducer
 - Fancy Menu
 - Health Overlay
 - Item Physics Lite
 - Load My Resources
+- Magnesium/Rubidium Dynamic Lights
+- Magnesium/Rubidium Extras
 - MouseTweaks
-- Optifine
-- Optifine Checker
+- Oculus
+- Rubidium
 - Sound Device Options
 - Stylish Effects
+- Toast Control
 
 🔥📝 Noted 📝🔥
 - Tweak BROTHER TYRONE
