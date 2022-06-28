@@ -2,7 +2,7 @@
 ShowConfigButton = false
 #Overrides all other config options for easy difficulty management
 #Range: 1 ~ 5
-Difficulty = 3
+Difficulty = 1
 
 ["Item settings"]
 	#Fire Resistance blocks all hot temperatures
@@ -30,7 +30,7 @@ Difficulty = 3
 ["Grace Period Details"]
 	#Grace period length in ticks (default: 6000)
 	#Range: > 0
-	"Grace Period Length" = 6000
+	"Grace Period Length" = 12000
 	#Enables the grace period (default: true)
 	"Grace Period Enabled" = true
 

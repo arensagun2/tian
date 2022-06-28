@@ -365,7 +365,7 @@
 		#Range: > 0
 		avg_veins_per_chunk = 8
 		#Set this to true to allow retro-generation of copper Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - bauxite
 	[ores.bauxite]
@@ -382,7 +382,7 @@
 		#Range: > 0
 		avg_veins_per_chunk = 8
 		#Set this to true to allow retro-generation of bauxite Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - lead
 	[ores.lead]
@@ -399,7 +399,7 @@
 		#Range: > 0
 		avg_veins_per_chunk = 4
 		#Set this to true to allow retro-generation of lead Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - silver
 	[ores.silver]
@@ -416,7 +416,7 @@
 		#Range: > 0
 		avg_veins_per_chunk = 4
 		#Set this to true to allow retro-generation of silver Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - nickel
 	[ores.nickel]
@@ -433,7 +433,7 @@
 		#Range: > 0
 		avg_veins_per_chunk = 2
 		#Set this to true to allow retro-generation of nickel Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - uranium
 	[ores.uranium]
@@ -450,7 +450,7 @@
 		#Range: > 0
 		avg_veins_per_chunk = 2
 		#Set this to true to allow retro-generation of uranium Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 [tools]
 	#The maximum durability of the Engineer's Hammer. Used up when hammering ingots into plates.

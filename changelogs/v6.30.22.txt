@@ -2,10 +2,14 @@ Version v6.30.22
 
 Changes/Tweaks:
 # Noted
+
+# Finished
+- Added LAGUNA
 - Remove Ice and Fire Dragons and Sea Serpents
 - Disable retrogen
+- Tweak boss spawns
+- Tweak Eating Speed
 - Disable carrying all block entities
 - Change ColdSweat Difficu;ty
-- Add Mods: Dragon Mount Legacy, Tian Addons (wip), CuteCore?, Mowzie's Mobs
-# Finished
--
+- Add Mods: Dragon Mount Legacy, CuteCore, Mowzie's Mobs, More Mekanism Processing, TiCBC - Tinkers Better Compat, Chipped
+- Update Mods: Fancy Menu, Macaw's Trapdoors

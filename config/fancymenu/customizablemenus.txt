@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 net.minecraft.client.gui.screen.OptionsScreen {
 }
 
@@ -13,5 +10,8 @@ net.minecraft.client.gui.screen.CustomizeSkinScreen {
 }
 
 com.blamejared.controlling.client.gui.GuiNewControls {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
