@@ -5,6 +5,6 @@ Changes/Tweaks:
 - Remove Ice and Fire Dragons and Sea Serpents
 - Disable retrogen
 - Disable carrying on some block entities: PizzaCraft Mortal and Pestle, All Storage Drawers
-- Add Mods: Dragon Mount Legacy, Tian Addons (wip)
+- Add Mods: Dragon Mount Legacy, Tian Addons (wip), CuteCore?
 # Finished
 -
