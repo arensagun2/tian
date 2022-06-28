@@ -9,7 +9,7 @@
         "healthmultiply": 4,
         "damagemultiply": 1.5,
         "result": "default",
-        "random": 0.1,
+        "random": 0.025,
         "customname": "BROTHER TYRONE",
         "potion": "minecraft:strength,10000,1",
         "helditem": "minecraft:diamond_sword",
@@ -17,13 +17,21 @@
         "armorhelmet": "minecraft:diamond_helmet"
     },
     {
-        "mob": "minecraft:zombie",
+        "mob": "minecraft:skeleton",
         "speedmultiply": 1.25,
         "damagemultiply": 2.5,
         "healthmultiply": 2,
         "result": "default",
-        "random": 0.15,
+        "random": 0.05,
         "customname": "TATAY",
         "armorhelmet": "minecraft:diamond_helmet"
+    },
+    {
+        "mob": "minecraft:spider",
+        "speedmultiply": 1.5,
+        "damagemultiply": 1.5,
+        "result": "default",
+        "random": 0.075,
+        "customname": "LAGUNA"
     }
 ]

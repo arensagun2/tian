@@ -344,7 +344,7 @@
 		"Eating Speed Based Off Food Config" = true
 		#Multiplier for the time taken to eat. Only applied if 'Eating Speed Based Off Food Config' is active.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Eating Time Multiplier" = 0.1
+		"Eating Time Multiplier" = 0.08
 
 ["Stack Size"]
 	#Make food, items and blocks less stackable. Changes in this section require a Minecraft restart
