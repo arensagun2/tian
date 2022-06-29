@@ -10,7 +10,6 @@ Changes/Tweaks:
 - Tweak boss spawns
 - Tweak Eating Speed
 - Disable carrying all block entities
-- Change ColdSweat Difficu;ty
-- Add Mods: Dragon Mount Legacy, CuteCore, Mowzie's Mobs, More Mekanism Processing, TiCBC - Tinkers Better Compat, Chipped
+- Add Mods: Dragon Mount Legacy, CuteCore, Mowzie's Mobs, More Mekanism Processing, TiCBC - Tinkers Better Compat, Chipped, Dad's Sewing
 - Remove Mods: ColdSweat
 - Update Mods: Fancy Menu, Macaw's Trapdoors
