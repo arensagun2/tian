@@ -98,7 +98,7 @@
 		growBoundingBoxAmount = 0.3
 		#The value to multiply the damage by if projectile hit the players head
 		#Range: 1.0 ~ 1.7976931348623157E308
-		headShotDamageMultiplier = 1.25
+		headShotDamageMultiplier = 1.5
 		#If true, improves the accuracy of weapons by considering the ping of the player. This has no affect on singleplayer. This will add a little overhead if enabled.
 		improvedHitboxes = false
 		#If true, projectiles will ignore leaves when checking for collision
