@@ -12,4 +12,5 @@ Changes/Tweaks:
 - Disable carrying all block entities
 - Change ColdSweat Difficu;ty
 - Add Mods: Dragon Mount Legacy, CuteCore, Mowzie's Mobs, More Mekanism Processing, TiCBC - Tinkers Better Compat, Chipped
+- Remove Mods: ColdSweat
 - Update Mods: Fancy Menu, Macaw's Trapdoors
