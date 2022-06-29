@@ -1,6 +1,6 @@
 [
     {
-        "mob": "minecraft:creeper",
+        "mob": ["minecraft:creeper", "iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:seaserpent"],
         "result": "deny"
     },
     {
