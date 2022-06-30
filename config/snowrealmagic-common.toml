@@ -11,7 +11,7 @@ snowAccumulationMaxLayers = 9
 #Unavailable if TerraForged mod installed
 thinnerBoundingBox = true
 snowMakingIce = true
-snowOnIce = false
+snowOnIce = true
 snowNeverMelt = false
 snowMeltsInWarmBiomes = false
 #Should snow melt if layers are more than 1

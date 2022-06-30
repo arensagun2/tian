@@ -3,7 +3,7 @@
 [client]
 	#The corner for the Curios GUI button
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-	buttonCorner = "TOP_LEFT"
+	buttonCorner = "BOTTOM_LEFT"
 	#The X-Offset for the Curios GUI button
 	#Range: -100 ~ 100
 	buttonXOffset = 0

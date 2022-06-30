@@ -380,7 +380,7 @@
 	"Reacharound Placing" = true
 	"Replace Scaffolding" = true
 	"Sign Editing" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Snow Golem Player Heads" = true
 	"Springy Slime" = true
 	"Utility Recipes" = true

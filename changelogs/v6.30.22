@@ -5,21 +5,24 @@ Legend: # done | - unfinished | ? unsure
 Added/Changes/Tweaked
     # Fixed carry tags
     - Increased Wither's HP
-    - Increased spawn rate of bosses
-    - Increased max limit of logs when lumbering
-    - Added SCENON
-    - Nerfed Infinity Ham
-    ? Disable Relic Durability
-    - Disabled snow shift right click
-    - Disabled Quark's simple harvest
-    - Disabled PamHC Crops' right click harvest
-    - Tweak Mowzie's Mobs
-    - ...
+    # Increased spawn rate of bosses
+    # Increased max limit of logs when lumbering [ 100 -> 300 ]
+    # Added SCENON
+    # Nerfed Infinity Ham
+    #? Disable Relic Durability
+    # Disabled Quark's simple harvest
+    # Disabled PamHC Crops' right click harvest
+    # Tweaked Mowzie's Mobs
+    # Removed recipe of Feeding Trough from Farming For Blockheads
+    - Changed recipes for cutecore mod [ mainly cakes ]
+    # Changed Curious Button from Top left to bottom left
+    # Tweaked Eating Speed
 
 Mods
     - Added: 
-        # Baubley Heart Canisters
-        - Drop the meat
+        - Baubley Heart Canisters
+        - Skin Layers 3D
+        - Aquaculture
     - Removed:
     - Updated:
         - Library Ferret
