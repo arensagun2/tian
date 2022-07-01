@@ -4,7 +4,7 @@
   <img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 </p>
 
-<p>
+<p align="center">
   made by me and my girlfriend and a friend
 </p>
 
