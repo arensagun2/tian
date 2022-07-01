@@ -275,11 +275,11 @@
 	[Hunger."Food Hunger"]
 		#Food's hunger restored will be multiplied by this value (rounded up). E.g. With this set to 0.5 a Cooked Porkchop would heal 4 hunger instead of 8. Setting to 1 will disable this feature.
 		#Range: 0.0 ~ 20.0
-		"Food Hunger Multiplier" = 0.4
+		"Food Hunger Multiplier" = 0.425
 		#Food's saturation restored will be multiplied by this value. Be aware that saturation is a multiplier and not a flat value, it is used to calculate the effective saturation restored when a player eats, and this calculation includes hunger, so by reducing hunger you automatically reduce saturation too. Setting to 1 will disable this feature.
 		#This requires a Minecraft Restart.
 		#Range: 0.0 ~ 64.0
-		"Food Saturation Multiplier" = 0.8
+		"Food Saturation Multiplier" = 0.7
 		#Define custom food values, one string = one item. Those items are not affected by other changes such as 'Food Hunger Multiplier'.
 		#The format is modid:itemid,hunger,saturation. Saturation is optional
 		#E.g. 'minecraft:cooked_porkchop,16,1.0' will make cooked porkchops give 8 shranks of food and 16 saturation (actual saturation is calculated by 'saturation * 2 * hunger').

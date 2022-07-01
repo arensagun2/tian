@@ -1,0 +1,39 @@
+
+[client]
+
+	[client.misc]
+		#Enables camera viewfinder overlay
+		enableCameraViewfinder = true
+		#Chainsaw will slow down player movement while in use
+		chainsawSlowsMovementWhenUsed = false
+		#Resolution in pixels when drawing on an empty easel canvas
+		#Range: 16 ~ 512
+		emptyCanvasEaselSize = 64
+		#Enables advanced easel color picker
+		extendedEaselColorPicker = false
+		#Disables rendering for the Mirror (disabling is recommended for Optifine shaders)
+		disableMirrorRendering = false
+		#Disables rendering for the CCTV Screen (disabling is recommended for Optifine shaders)
+		disableCCTVRendering = false
+		#Maximum range (in blocks) for CCTV screen to link to a CCTV camera
+		cctvCameraRange = 50.0
+		#Enables mirror (and CCTV Screen) rendering in spectator mode
+		mirrorRendersInSpectatorMode = false
+		#Chainsaw plays idle sound
+		chainsawPlaysIdleSound = true
+
+	[client.alarm_clock]
+		#Enables 24-hour mode for alarm clock (no AM/PM)
+		clock24HoursMode = false
+		#Enables alarm clock moon indicator (shows when you can sleep)
+		moonIndicator = true
+		#Alarm clock text color (R value in RGB)
+		#Range: 0 ~ 255
+		alarmClockTextColorR = 249
+		#Alarm clock text color (G value in RGB)
+		#Range: 0 ~ 255
+		alarmClockTextColorG = 8
+		#Alarm clock text color (B value in RGB)
+		#Range: 0 ~ 255
+		alarmClockTextColorB = 40
+

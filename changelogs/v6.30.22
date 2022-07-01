@@ -4,7 +4,7 @@ Legend: # done | - unfinished | ? unsure
 
 Added/Changes/Tweaked
     # Fixed carry tags
-    - Increased Wither's HP
+    # Increased Wither's HP
     # Increased spawn rate of bosses
     # Increased max limit of logs when lumbering [ 100 -> 300 ]
     # Added SCENON
@@ -14,15 +14,25 @@ Added/Changes/Tweaked
     # Disabled PamHC Crops' right click harvest
     # Tweaked Mowzie's Mobs
     # Removed recipe of Feeding Trough from Farming For Blockheads
-    - Changed recipes for cutecore mod [ mainly cakes ]
+    # Changed recipes for cutecore mod [ mainly cakes ]
     # Changed Curious Button from Top left to bottom left
     # Tweaked Eating Speed
+    # Tweaked Food values
+    # Changed and added tags in some foods
+    # Added carry on spawners
 
 Mods
-    - Added: 
-        - Baubley Heart Canisters
-        - Skin Layers 3D
-        - Aquaculture
+    # Added: 
+        # Baubley Heart Canisters
+        # Skin Layers 3D
+        # Aquaculture
+        # Modern Life
+        # Fx Control
+        # Diagonal Fences
+        # Macaw's Roofs - Biomes O' Plenty
+        # Macaw's Fences - Biomes O' Plenty
+        # Macaw's Bridges - Biomes O' Plenty
+        # Gauges and Stitches
     - Removed:
-    - Updated:
-        - Library Ferret
+    # Updated:
+        # Infernal Expansion
