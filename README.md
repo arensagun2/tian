@@ -1,6 +1,8 @@
 # Minecraft Modpack made for beginners
 
-# <img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+<p align="center">
+  <img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
 
 made by me and my girlfriend and a friend
 
@@ -60,4 +62,5 @@ This also adds Simple Voice Chat, which is useful for servers (or Lan) and talki
 <img src="https://imgur.com/xatML9E.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
 Beta Versions and Version 6.23-BETA needs Optifine (it will crash on other versions, unless rubidium mods are removed)
+
 This pack requires 6-8 GB, or more, allocated into Minecraft
