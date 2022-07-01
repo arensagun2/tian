@@ -1,6 +1,6 @@
 # Minecraft Modpack made for beginners
 
-<img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+# <img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
 made by me and my girlfriend and a friend
 
@@ -9,6 +9,8 @@ currently in BETA
 <img src="https://imgur.com/GzkkGr4.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
 Just another Minecraft Modpack with tons of new contents. (Does not focus on one mod)
+
+<img src="https://imgur.com/SAQ2pF6.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
 ✔️ 200+ Mods
 
