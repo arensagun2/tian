@@ -6,9 +6,9 @@
 
 <p align="center">
   made by me and my girlfriend and a friend
+  <br>
+  currently in BETA
 </p>
-
-currently in BETA
 
 <img src="https://imgur.com/GzkkGr4.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
