@@ -12,9 +12,13 @@
 
 <img src="https://imgur.com/GzkkGr4.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
 
-Just another Minecraft Modpack with tons of new contents. (Does not focus on one mod)
+<p align="center">
+  Just another Minecraft Modpack with tons of new contents. (Does not focus on one mod)
+</p>
 
-<img src="https://imgur.com/SAQ2pF6.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+<p align="center">
+  <img src="https://imgur.com/SAQ2pF6.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
 
 ✔️ 200+ Mods
 
@@ -59,9 +63,13 @@ Just another Minecraft Modpack with tons of new contents. (Does not focus on one
 
 This also adds Simple Voice Chat, which is useful for servers (or Lan) and talking to your friends in-game. Learn how to set up the mod here
 
-<img src="https://imgur.com/zxMdvIt.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+<p align="center">
+  <img src="https://imgur.com/zxMdvIt.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
 
-<img src="https://imgur.com/xatML9E.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+<p align="center">
+  <img src="https://imgur.com/xatML9E.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
 
 Beta Versions and Version 6.23-BETA needs Optifine (it will crash on other versions, unless rubidium mods are removed)
 
