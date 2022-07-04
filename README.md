@@ -1,18 +1,36 @@
 # Minecraft Modpack made for beginners
 
-<img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+<p align="center">
+  <img src="https://imgur.com/DkX4rpO.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
 
-made by me and my girlfriend and a friend
+<p align="center">
+  made by me and my girlfriend and a friend
+  <br>
+  currently in BETA
+</p>
 
-currently in BETA
+<img src="https://imgur.com/GzkkGr4.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+
+<p align="center">
+  Just another Minecraft Modpack with tons of new contents. (Does not focus on one mod)
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/SAQ2pF6.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
 
 ✔️ 200+ Mods
 
 ✔️ 25+ new structures
 
+✔️ 50+ new biomes
+
 ✔️ 75+ new mobs, hostile and friendly
 
-✔️ Random mob boss spawn
+✔️ Thirst
+
+✔️ Random mob boss spawn (3 and counting)
 
 ✔️ Disabled Creeper spawn
 
@@ -36,7 +54,23 @@ currently in BETA
 
 ✔️ More cosmetics to wear
 
+✔️ Uses Rubidium and its addons which makes the game run faster and smoother!
+
 ✔️ and much MORE!
 
+
 🎙️ Simple Voice Chat
+
 This also adds Simple Voice Chat, which is useful for servers (or Lan) and talking to your friends in-game. Learn how to set up the mod here
+
+<p align="center">
+  <img src="https://imgur.com/zxMdvIt.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/xatML9E.png" alt="Markdown Monster icon" style="margin-right: 10px;" />
+</p>
+
+Beta Versions and Version 6.23-BETA needs Optifine (it will crash on other versions, unless rubidium mods are removed)
+
+This pack requires 6-8 GB, or more, allocated into Minecraft
