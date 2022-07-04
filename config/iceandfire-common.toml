@@ -29,17 +29,17 @@
 
 	[Generation.Dragon]
 		#Whether to generate dragon skeletons or not
-		"Generate Dragon Skeletons" = false
+		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Skeleton Chance" = 400
 		#Whether to generate dragon caves or not
-		"Generate Dragon Caves" = false
+		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Cave Chance" = 300
 		#Whether to generate dragon roosts or not
-		"Generate Dragon Roosts" = false
+		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Roost Chance" = 400
@@ -347,7 +347,7 @@
 
 	[Mobs.SeaSerpents]
 		#True if sea serpents are allowed to spawn
-		"Spawn Sea Serpents" = false
+		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Sea Serpent Chance" = 250

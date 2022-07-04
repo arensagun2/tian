@@ -1,0 +1,19 @@
+Version 7.04.22 BETA
+
+Legend: # done | - unfinished | ? unsure
+
+Added/Changes/Tweaked
+    # Brought back Ice & Fire Dragons and Sea Serpents
+
+Mods
+    - Added: 
+        # Immersive Railroading
+    - Removed:
+        # Dragon Mount Legacy
+    - Updated:
+        # Advanced Peripherals
+        # Architectury API
+        # Caves & Cliffs Backports (Additions)
+        # Ice & Fire: Dragons
+        # Immersive Cooking
+        # Simple Voice Chat
