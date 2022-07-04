@@ -1,11 +1,11 @@
-Version 7.04.22 BETA
+🔥Version 7.04.22 BETA🔥
 
-Legend: # done | - unfinished | ? unsure
+🔥Legend: # done | - unfinished | ? unsure🔥
 
-Added/Changes/Tweaked
+🔥Added/Changes/Tweaked🔥
     # Brought back Ice & Fire Dragons and Sea Serpents
 
-Mods
+🔥Mods🔥
     - Added: 
         # Immersive Railroading
     - Removed:
