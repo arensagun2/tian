@@ -93,7 +93,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 293
   width = 268
   action = deep_customization_element:title_screen_forge_top
@@ -184,17 +184,18 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = element
   basecolor = #ffff00
   shadow = true
   splashfilepath = resources\splashes.txt
   rotation = 20.0
-  x = 497
-  actionid = 36c7c0a0-4ee4-4876-8909-7f4985745dda1656015462383
-  action = addsplash
-  y = 100
   scale = 1.0
   refresh = false
   bouncing = true
+  orientation_element = 10cdb288-cf70-4d63-a9d2-51d54f0a7c751656015256611
+  x = 194
+  actionid = 36c7c0a0-4ee4-4876-8909-7f4985745dda1656015462383
+  action = addsplash
+  y = 4
 }
 

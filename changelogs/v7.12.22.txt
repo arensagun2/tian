@@ -1,0 +1,23 @@
+🔥Version 7.12.22 BETA🔥
+
+🔥Legend: # done | - unfinished | ? unsure🔥
+
+🔥Added/Changes/Tweaked🔥
+    - Changed distance multiplier for portals [ 200 -> 500 ]
+
+🔥Mods🔥
+    - Added: 
+        - Curious Elytra
+        - Curious Jetpacks
+        - Connected Glass
+    - Removed:
+        -
+    - Updated:
+        - Awesome Dungeons
+        - Fancy Menu
+        - Library Ferret
+        - Moving Elevators
+        - Nekoration
+        - Simple Voice Chat
+        - SuperMartjn642's Config Lib
+        - SuperMartjn642's Core Lib

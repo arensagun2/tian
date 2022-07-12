@@ -29,5 +29,5 @@
 	POWER_PORTAL_TICK = 1
 	#Max distance multiplier that a portal can be linked, based on length. PortalLength*ThisValue
 	#Range: > 1
-	DISTANCE_MULTIPLIER = 200
+	DISTANCE_MULTIPLIER = 500
 
